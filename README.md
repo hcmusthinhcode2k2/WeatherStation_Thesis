@@ -1,4 +1,4 @@
-## Thesis Topic: "Design of Weather Station Using NB-IoT Technology"
+## Thesis Topic: "Design a weather monitoring station using NB-IoT technology"
 
 ### Description
 The weather station model was designed over a 5-month period (March 2024 - August 2024), incorporating components such as PCB, sensors, and mechanical structure. The objective of this project is to develop a station capable of collecting weather data from various sensors and transmitting it to the ThingsBoard server. This enables visualization of the collected data, facilitating effective weather monitoring.
