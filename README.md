@@ -24,4 +24,4 @@ The project benefited from equipment and guidance provided by RPC, the company w
 ### Developed After Defending The Thesis
 Post-thesis, I built a web application using Next.js, integrating it with the ThingsBoard API for interactive weather data visualization. Supabase is used for backend services, including authentication via GitHub, data management, and real-time updates.
 ![Web](https://github.com/hcmusthinhcode2k2/WeatherStation_Thesis/blob/main/Picture_demo/app.png)
-
+- [Access the Web](https://iot-dashboard-2r98-git-master-hcmusthinhcode2k2s-projects.vercel.app/auth)
