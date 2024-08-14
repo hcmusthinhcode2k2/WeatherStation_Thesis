@@ -1,0 +1,23 @@
+Drill report for WeatherStation.kicad_pcb
+Created on 2024-07-01T09:22:23+0700
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'WeatherStation-PTH-drl.gbr' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (47 holes)
+    T2  0.700mm  0.0276"  (8 holes)
+
+    Total plated holes count 55
+
+
+Drill file 'WeatherStation-NPTH-drl.gbr' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

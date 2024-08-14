@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<project>                                  
+  <executable name="dist/application/debug/WS.X.debug.elf">                 
+    <memory name="program">                 
+      <units>bytes</units>                 
+      <length>238736</length>                 
+      <used>55340</used>                     
+      <free>183396</free>                     
+    </memory>                              
+    <memory name="data">              
+      <units>bytes</units>                 
+      <length>32768</length>                 
+      <used>2485</used>                     
+      <free>30283</free>                     
+    </memory>                              
+  </executable>                            
+</project>                                 

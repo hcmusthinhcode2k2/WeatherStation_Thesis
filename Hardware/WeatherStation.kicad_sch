@@ -1,0 +1,2066 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1dbde4b3-a3f3-4db1-8613-41244da68cdc")
+	(paper "A4")
+	(title_block
+		(title "THIẾT KẾ TRẠM GIÁM SÁT THỜI TIẾT SỬ DỤNG CÔNG NGHỆ NB-IOT")
+		(date "2024-06-22")
+		(rev "0.1")
+		(company "TRƯỜNG ĐH KHOA HỌC TỰ NHIÊN - ĐẠI HỌC QUỐC GIA TP. HCM")
+		(comment 1 "MSSV: 20200346")
+		(comment 2 "SV: LÊ HƯNG THỊNH")
+		(comment 3 "KHOA ĐIỆN TỬ")
+	)
+	(lib_symbols)
+	(junction
+		(at 167.64 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33387174-c4ed-42ee-8db2-6f56e18365f5")
+	)
+	(junction
+		(at 164.465 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "519d31eb-784b-4896-b75a-08e477cdf827")
+	)
+	(no_connect
+		(at 120.65 81.915)
+		(uuid "062fcfb9-79e8-4d88-9fa5-ad45c308c474")
+	)
+	(no_connect
+		(at 200.66 90.17)
+		(uuid "088f9468-739b-4da6-be18-6ceed1c6cc84")
+	)
+	(no_connect
+		(at 120.65 76.835)
+		(uuid "0a6b88eb-d82f-4129-867a-df45513936f0")
+	)
+	(no_connect
+		(at 200.66 46.355)
+		(uuid "12bac157-51c0-410f-b9b4-8ac5e70169e1")
+	)
+	(no_connect
+		(at 120.65 97.155)
+		(uuid "25c658a9-c90d-433f-8989-f4ab9d1fc615")
+	)
+	(no_connect
+		(at 120.65 92.075)
+		(uuid "2dca9ceb-44d8-46ee-8a7a-752094284f1f")
+	)
+	(no_connect
+		(at 200.66 97.79)
+		(uuid "324d5992-7989-4c15-979f-a851557ba1fb")
+	)
+	(no_connect
+		(at 200.66 43.815)
+		(uuid "3623783e-ebee-4f5d-b195-a37206e6302c")
+	)
+	(no_connect
+		(at 120.65 74.295)
+		(uuid "3b44ee0b-c3b5-458e-8c2e-51db5d3dd056")
+	)
+	(no_connect
+		(at 120.65 104.775)
+		(uuid "4234f4d5-e14a-4a20-b220-462df682a6c0")
+	)
+	(no_connect
+		(at 200.66 61.595)
+		(uuid "432eb312-db56-4d05-a215-88cd11f104b7")
+	)
+	(no_connect
+		(at 200.66 66.675)
+		(uuid "62550e32-7dc5-45e0-b97e-ab7e4417f20d")
+	)
+	(no_connect
+		(at 200.66 92.71)
+		(uuid "738d8481-1d38-49ba-a162-b69251e4091b")
+	)
+	(no_connect
+		(at 200.66 48.895)
+		(uuid "807b5427-db8e-4519-8a15-5c527ca5ee16")
+	)
+	(no_connect
+		(at 120.65 84.455)
+		(uuid "83287263-6e59-4d02-87a7-ae095124a6bd")
+	)
+	(no_connect
+		(at 120.65 79.375)
+		(uuid "92f553ce-be89-412e-a2ac-8bf812d67043")
+	)
+	(no_connect
+		(at 200.66 95.25)
+		(uuid "9326120a-41e4-4542-b0a7-16719e3b61fe")
+	)
+	(no_connect
+		(at 200.66 56.515)
+		(uuid "a1d86fec-7fe7-406a-9cee-c3ffd0391a17")
+	)
+	(no_connect
+		(at 200.66 51.435)
+		(uuid "a41afdea-430a-4a3a-b923-5412cc6aaa98")
+	)
+	(no_connect
+		(at 120.65 107.315)
+		(uuid "b0aa83ac-e43d-4fed-b643-52e77014811d")
+	)
+	(no_connect
+		(at 200.66 64.135)
+		(uuid "c2badf2b-de65-4e9a-8f67-0d85f2b86821")
+	)
+	(no_connect
+		(at 120.65 102.235)
+		(uuid "c8fa7e9b-abb7-45e2-a85a-e2d08d9bb4a7")
+	)
+	(no_connect
+		(at 120.65 86.995)
+		(uuid "d30f13ee-a77b-47e4-a716-36d76e2c3b50")
+	)
+	(no_connect
+		(at 120.65 99.695)
+		(uuid "d78d5cf0-9d89-4abd-abb8-0d61bcbe78d6")
+	)
+	(no_connect
+		(at 200.66 59.055)
+		(uuid "d8b9a70b-45ae-4b0c-94ea-d6214f32e29e")
+	)
+	(no_connect
+		(at 200.66 41.275)
+		(uuid "db58da22-575e-45b3-9e8a-11dbcccae03a")
+	)
+	(no_connect
+		(at 200.66 53.975)
+		(uuid "dd067688-3c94-40cc-8a3e-a5ff32b02ec4")
+	)
+	(no_connect
+		(at 120.65 89.535)
+		(uuid "e03d4b27-f4d6-4112-8816-4a9b11760571")
+	)
+	(no_connect
+		(at 120.65 94.615)
+		(uuid "e9ba48fc-2d12-447b-8703-385502a94bd5")
+	)
+	(no_connect
+		(at 200.66 38.735)
+		(uuid "f541774a-9443-4070-bb17-e89d7340cda2")
+	)
+	(wire
+		(pts
+			(xy 164.465 90.17) (xy 171.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0310cc3b-b014-492c-9f0d-2a3c5dbb2cc0")
+	)
+	(polyline
+		(pts
+			(xy 203.2 88.9) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d34317-c02a-438c-b6a0-52cf8ed80b02")
+	)
+	(wire
+		(pts
+			(xy 158.75 104.14) (xy 171.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad8c395-f35b-4e3c-a1d6-5f6922f0dcf9")
+	)
+	(wire
+		(pts
+			(xy 158.75 56.515) (xy 171.45 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d50b26a-8119-468c-8197-6fec06373f85")
+	)
+	(wire
+		(pts
+			(xy 107.95 53.975) (xy 120.65 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103e3543-8cae-45e5-87ba-40fd093145c5")
+	)
+	(wire
+		(pts
+			(xy 158.75 97.79) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19811424-066f-485e-bca1-b658b6f38476")
+	)
+	(polyline
+		(pts
+			(xy 146.05 109.22) (xy 147.32 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2037e504-d315-4aa5-8600-8b898bf2b60a")
+	)
+	(wire
+		(pts
+			(xy 158.75 90.17) (xy 164.465 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cdfeef-f725-4187-938b-73ae8872d18a")
+	)
+	(wire
+		(pts
+			(xy 107.95 40.64) (xy 171.45 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220d211b-8a57-485c-be3d-5dfd84fe50f9")
+	)
+	(wire
+		(pts
+			(xy 107.95 46.355) (xy 120.65 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "266f811f-6ec6-419e-a86b-94cc81163988")
+	)
+	(wire
+		(pts
+			(xy 107.95 59.055) (xy 120.65 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab48e59-c94a-4458-a93e-9bfe1f7f0684")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.835) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d98af45-0555-4e78-8be5-d46b39d58adf")
+	)
+	(wire
+		(pts
+			(xy 158.75 51.435) (xy 171.45 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcaddab-3eff-4597-b741-1838633f43cb")
+	)
+	(polyline
+		(pts
+			(xy 119.38 73.66) (xy 118.745 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3207dd72-9b66-4aab-a18b-cb242312087d")
+	)
+	(wire
+		(pts
+			(xy 164.465 74.295) (xy 164.465 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36570903-f765-4759-b571-e591d38eebd4")
+	)
+	(wire
+		(pts
+			(xy 158.75 46.355) (xy 171.45 46.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372ecbe0-53d5-4cca-9137-82f23de85e84")
+	)
+	(polyline
+		(pts
+			(xy 202.565 67.945) (xy 203.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c466834-49ea-48ed-a8a9-7691ca0e12f6")
+	)
+	(polyline
+		(pts
+			(xy 202.565 37.465) (xy 203.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfe2a9d-d683-41be-8eb5-00d6140d0064")
+	)
+	(polyline
+		(pts
+			(xy 202.565 108.585) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403f7d7c-bd92-4219-a5ed-2cc428bb8a32")
+	)
+	(wire
+		(pts
+			(xy 158.75 61.595) (xy 171.45 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46954ff4-ce4f-4ac3-bdea-d1ec687ab2a0")
+	)
+	(wire
+		(pts
+			(xy 171.45 74.295) (xy 164.465 74.295)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504df737-9b4f-467f-b8bf-649742a1013c")
+	)
+	(wire
+		(pts
+			(xy 158.75 66.675) (xy 171.45 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8a4ee1-edbe-47ea-80cd-2c2fde968fb8")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.675) (xy 120.65 66.675)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662705f4-da07-4c47-95a7-e6af41999834")
+	)
+	(wire
+		(pts
+			(xy 107.95 51.435) (xy 120.65 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f62ef75-f204-4195-b277-24e5b4817dbb")
+	)
+	(polyline
+		(pts
+			(xy 146.05 109.22) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "73a5b0ac-834d-47a9-a4f8-0f71485ce782")
+	)
+	(polyline
+		(pts
+			(xy 212.09 114.3) (xy 212.09 76.2)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "75f0721b-0852-4b3a-b4d6-c97a0f12a05e")
+	)
+	(wire
+		(pts
+			(xy 107.95 64.135) (xy 120.65 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d762dc7-43a0-45cb-bc90-ee32adb83835")
+	)
+	(polyline
+		(pts
+			(xy 106.045 74.93) (xy 106.045 114.3)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "7fc4abb5-2665-4636-b7b2-988a0c9e12a0")
+	)
+	(wire
+		(pts
+			(xy 158.75 64.135) (xy 171.45 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "818cd543-ee15-4185-9a1b-a93323b50a8d")
+	)
+	(wire
+		(pts
+			(xy 158.75 69.215) (xy 171.45 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6c7fb6-bfda-4879-b32b-f03b616951fb")
+	)
+	(wire
+		(pts
+			(xy 158.75 53.975) (xy 171.45 53.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c8b13db-d81a-4059-b9df-abdd3adb9de1")
+	)
+	(polyline
+		(pts
+			(xy 200.025 110.49) (xy 198.755 109.22)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "91134c0a-50de-4c48-9c4c-383884d60b05")
+	)
+	(polyline
+		(pts
+			(xy 118.745 74.295) (xy 118.745 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93aebcaa-dad9-460b-9d8b-da56b41842b5")
+	)
+	(polyline
+		(pts
+			(xy 144.78 110.49) (xy 146.05 109.22)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9c504019-73ea-4a8a-99b9-594516f2c168")
+	)
+	(wire
+		(pts
+			(xy 107.95 61.595) (xy 120.65 61.595)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdf79c6-bdb3-4dc8-be7b-b67cebd571fd")
+	)
+	(wire
+		(pts
+			(xy 107.95 69.215) (xy 120.65 69.215)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a84903b8-85ef-4546-bb63-a77768c68d61")
+	)
+	(polyline
+		(pts
+			(xy 198.755 109.22) (xy 198.755 114.3)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "a85eb380-15c5-4e30-ba7c-4d264b874ab3")
+	)
+	(wire
+		(pts
+			(xy 171.45 76.835) (xy 167.64 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97ce6b1-ec25-41cc-8517-9ad7e21db9ec")
+	)
+	(wire
+		(pts
+			(xy 107.95 56.515) (xy 120.65 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae5b08a4-485f-45a2-a75d-c10e5088ebbd")
+	)
+	(wire
+		(pts
+			(xy 158.75 48.895) (xy 171.45 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00d1e08-c591-4579-8d1d-141a18ff35bb")
+	)
+	(polyline
+		(pts
+			(xy 202.565 88.265) (xy 203.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b914627a-8496-4d9e-b9bf-92bfc28e635e")
+	)
+	(polyline
+		(pts
+			(xy 118.745 107.95) (xy 119.38 108.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1ba5cb-f8cc-4fa7-9d51-2a6e4f4d4f72")
+	)
+	(polyline
+		(pts
+			(xy 146.05 114.3) (xy 198.755 114.3)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "bb238753-8b35-4934-88c1-1c2a99ae2617")
+	)
+	(wire
+		(pts
+			(xy 167.64 92.71) (xy 171.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc1732c-fc4b-494f-b5ce-2b8d6ed4faaf")
+	)
+	(polyline
+		(pts
+			(xy 198.755 109.22) (xy 197.485 110.49)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "bfcdb646-d48b-4c7c-9cb9-6cf380208a35")
+	)
+	(wire
+		(pts
+			(xy 158.75 59.055) (xy 171.45 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1fa086-46df-42d0-944c-8363bd2307f7")
+	)
+	(polyline
+		(pts
+			(xy 200.66 76.2) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "d23d1a68-eda3-443c-b0f6-593a24748c8a")
+	)
+	(wire
+		(pts
+			(xy 107.95 38.1) (xy 171.45 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d25dfbbb-7567-4cdd-99d6-e085c4a79839")
+	)
+	(wire
+		(pts
+			(xy 158.75 100.33) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fa4ce9-57fd-4863-81a0-201ccea3959e")
+	)
+	(polyline
+		(pts
+			(xy 106.045 114.3) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "d4b4a7b7-e016-4baa-9cff-7b1dd3fe90af")
+	)
+	(polyline
+		(pts
+			(xy 200.66 76.2) (xy 212.09 76.2)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "ddbc616f-f118-4278-9ea7-b08b16ab4d38")
+	)
+	(wire
+		(pts
+			(xy 158.75 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5b74d44-2c84-41d3-bec8-0bd6bbc727e0")
+	)
+	(wire
+		(pts
+			(xy 158.75 106.68) (xy 171.45 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e737dadf-f6d7-4cbc-8b58-6ac58564e6ff")
+	)
+	(wire
+		(pts
+			(xy 158.75 95.25) (xy 171.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e9f052-93cc-4ac8-b802-6b438c1cf78c")
+	)
+	(polyline
+		(pts
+			(xy 198.755 114.3) (xy 212.09 114.3)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "ea0418e7-2117-4d1d-8cf9-d66064a1c7f4")
+	)
+	(polyline
+		(pts
+			(xy 203.2 67.31) (xy 203.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf356d1-5c78-4040-9019-d8bb84a381ec")
+	)
+	(polyline
+		(pts
+			(xy 200.66 76.2) (xy 201.93 77.47)
+		)
+		(stroke
+			(width 0.381)
+			(type default)
+		)
+		(uuid "f1ac7950-597a-4c5c-96ce-3051c26feadd")
+	)
+	(wire
+		(pts
+			(xy 158.75 71.755) (xy 171.45 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44a8184-bc90-4b3e-bb34-9cf123521ecb")
+	)
+	(wire
+		(pts
+			(xy 107.95 48.895) (xy 120.65 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcb6760f-bb14-4695-b2df-184ba813ce31")
+	)
+	(circle
+		(center 198.755 114.3)
+		(radius 0.635)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 200 1)
+		)
+		(uuid 1e065a34-c375-4724-a147-ebceb91e7507)
+	)
+	(rectangle
+		(start 82.55 109.855)
+		(end 84.455 111.76)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 200 0 1)
+		)
+		(fill
+			(type color)
+			(color 0 200 0 1)
+		)
+		(uuid 66a0674c-47ff-4ee4-afb3-88f60104b888)
+	)
+	(rectangle
+		(start 82.55 113.03)
+		(end 84.455 114.935)
+		(stroke
+			(width 0)
+			(type default)
+			(color 114 86 0 1)
+		)
+		(fill
+			(type color)
+			(color 114 86 0 1)
+		)
+		(uuid e64f4ef0-bf5b-40e1-8697-7401de12a29f)
+	)
+	(circle
+		(center 146.05 114.3)
+		(radius 0.635)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 200 1)
+		)
+		(uuid f8d41458-1a5d-4f97-a15d-4f97dd1e43dc)
+	)
+	(text "Internal connections"
+		(exclude_from_sim no)
+		(at 204.47 98.425 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "09429476-db43-4c2a-910d-54373259dba9")
+	)
+	(text "Internal connections"
+		(exclude_from_sim no)
+		(at 117.475 89.535 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "15f6fc88-5cbe-4951-8e40-7fe3430e59f4")
+	)
+	(text "Digital signals"
+		(exclude_from_sim no)
+		(at 91.44 114.3 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "262b70b1-c608-4892-9fe6-0538b4f725db")
+	)
+	(text "Internal connections"
+		(exclude_from_sim no)
+		(at 204.47 52.705 90)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "2dcdcaaa-88d1-4aea-acce-5bf8e6af49ef")
+	)
+	(text "3.3V\n"
+		(exclude_from_sim no)
+		(at 149.225 112.395 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "3628d4bb-ef68-411f-9896-8c7aaa7d59a9")
+	)
+	(text "5V,\n3.3V,\n1.8V,\nVNB (3.8V),\nVDD (3.7V-5V),\nVIO (3.3V),\nVLNA (3.3V)"
+		(exclude_from_sim no)
+		(at 99.695 83.185 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "71903686-e983-4d1a-802b-058fb1be1629")
+	)
+	(text "1.8V,\nVNB (3.8V),\nVIO (3.3V),\nVLNA (3.3V)"
+		(exclude_from_sim no)
+		(at 207.645 72.39 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "ad90217f-4223-4c07-ace4-48a27b67471b")
+	)
+	(text "Analog signals"
+		(exclude_from_sim no)
+		(at 90.805 111.125 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "af203895-f9fd-4afe-ba03-0c4133c7e811")
+	)
+	(text "VDD (3.7V-5V),\n3.3V"
+		(exclude_from_sim no)
+		(at 206.375 112.395 0)
+		(effects
+			(font
+				(face "Consolas")
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "b8e04930-5a1d-487d-bf29-64b5f69f4a20")
+	)
+	(sheet
+		(at 82.55 36.195)
+		(size 25.4 38.735)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 219 255 218 1.0000)
+		)
+		(uuid "37fed46e-66d2-45b8-b7c6-221d21bef91d")
+		(property "Sheetname" "POWER"
+			(at 82.55 35.6104 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 82.55 75.413 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{VBAT_LOW}" output
+			(at 107.95 51.435 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "facc07e8-1b62-4919-8971-6470366b8255")
+		)
+		(pin "VBAT_SEN" output
+			(at 107.95 61.595 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "f822f7a1-31df-4196-9215-48d805ff16fe")
+		)
+		(pin "VNB_EN" input
+			(at 107.95 48.895 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "eb645752-68b0-4f41-9050-636eca606275")
+		)
+		(pin "USB_N" bidirectional
+			(at 107.95 53.975 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "4680a3c2-9253-4b7e-b0e7-09b60652f1e3")
+		)
+		(pin "USB_P" bidirectional
+			(at 107.95 56.515 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "e36c0481-b3eb-405c-9d68-95c097b9bbc7")
+		)
+		(pin "VSOLAR_SEN" output
+			(at 107.95 69.215 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "c124a64e-189c-415e-84ed-621a20dc0a6e")
+		)
+		(pin "VBUS_SEN" output
+			(at 107.95 59.055 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "407a80f6-fbb3-486c-aa35-5b84e02507e1")
+		)
+		(pin "VNB_SEN" output
+			(at 107.95 66.675 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "0c7b7b78-70a6-4e20-99a8-e51fb037cf7d")
+		)
+		(pin "V5V_SEN" output
+			(at 107.95 64.135 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "fae8c849-c89c-44cb-84ca-be1ab8f8b6ff")
+		)
+		(pin "VIO_EN" input
+			(at 107.95 46.355 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "cc616d98-f7df-4fd7-af97-b95209e3335b")
+		)
+		(pin "VLNA_ENA" input
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "f475effc-4c76-447e-984e-df20321b293e")
+		)
+		(pin "PWRMON" input
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "e13d7966-f81c-4b69-97d6-104c5b7fa78d")
+		)
+		(instances
+			(project "WeatherStation"
+				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 36.195)
+		(size 29.21 42.545)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 219 255 218 1.0000)
+		)
+		(uuid "62d9edff-dabb-4f6f-b473-37925f91df33")
+		(property "Sheetname" "NB MODULE"
+			(at 171.45 35.6104 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "NBMODULE.kicad_sch"
+			(at 171.45 79.223 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIM_RST" input
+			(at 200.66 38.735 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "5e3ecb16-d457-43bf-8b85-0407b69be20b")
+		)
+		(pin "SIM_CLK" input
+			(at 200.66 41.275 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "d91d0cd6-be86-4980-9ea6-567ca58ac872")
+		)
+		(pin "SIM_DAT" bidirectional
+			(at 200.66 43.815 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "7a322d3c-88b8-4895-aee2-e9bfabe6dca0")
+		)
+		(pin "SIM_VCC" output
+			(at 200.66 46.355 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "d28c3c22-52a3-47c2-8c96-caad56bc1cd3")
+		)
+		(pin "NB_VBUS" input
+			(at 171.45 53.975 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "ad0c87f2-c125-47a1-b7e6-7731371f9290")
+		)
+		(pin "TXD0" output
+			(at 200.66 48.895 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "5b510add-4512-4795-a4f3-e5436c97607d")
+		)
+		(pin "RXD0" input
+			(at 200.66 51.435 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "a39c59a9-e526-4104-845c-6074ff12b7df")
+		)
+		(pin "NB_USB_N" bidirectional
+			(at 171.45 48.895 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "9051d9ec-0928-4567-ba02-335249e71933")
+		)
+		(pin "NB_USB_P" bidirectional
+			(at 171.45 51.435 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "97888dee-4c15-410f-a78a-7efd6bf2a5e0")
+		)
+		(pin "GPS_LNA_ENA" output
+			(at 171.45 38.1 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "ffa3c6b4-9d0f-4aa0-ae3b-f24bac4d34c9")
+		)
+		(pin "NB_VAUX_SEN" output
+			(at 171.45 56.515 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "54b9be9b-806a-46a6-93d4-72d97e24b438")
+		)
+		(pin "NB_ONOFF" input
+			(at 171.45 46.355 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "94d66c7d-b9f2-498c-96c8-ccecc809b66d")
+		)
+		(pin "ARXD" input
+			(at 200.66 59.055 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "787bd8ba-4fb7-428e-b5ae-6792f4c13243")
+		)
+		(pin "ATXD" output
+			(at 200.66 61.595 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "e211544f-4332-4e17-9ade-20697f6fcd59")
+		)
+		(pin "NB_TXD" output
+			(at 171.45 59.055 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "31da91c2-3abf-426e-8b06-7c05747fb270")
+		)
+		(pin "NB_RXD" input
+			(at 171.45 61.595 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "293c29aa-72dd-4835-923d-b40a56d5f7ff")
+		)
+		(pin "NB_ATXD" output
+			(at 171.45 69.215 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "08ff1d74-8187-4fa4-9555-395770a052a9")
+		)
+		(pin "NB_ARXD" input
+			(at 171.45 71.755 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "376c1273-7aec-40c2-9ee9-26ad1632c0e1")
+		)
+		(pin "SCL_1V8" bidirectional
+			(at 200.66 64.135 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "a9d73e64-6933-47ab-88df-ceb649919962")
+		)
+		(pin "DTR" output
+			(at 200.66 53.975 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "3fba2598-dee1-422f-a82c-b9530f4d5bea")
+		)
+		(pin "RING" output
+			(at 200.66 56.515 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "2a19a4bd-3ccf-4fdb-96b2-546a0baa8115")
+		)
+		(pin "SDA_1V8" bidirectional
+			(at 200.66 66.675 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "398d144c-0d49-4ed4-9b3f-8a9d08907c90")
+		)
+		(pin "PWRMON" output
+			(at 171.45 40.64 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "5d9f33fd-4a1e-4bb6-baf6-c67a46670775")
+		)
+		(pin "NB_DTR" output
+			(at 171.45 64.135 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "c1dda97e-695c-491a-afb0-1dd8a81c594f")
+		)
+		(pin "NB_SDA" bidirectional
+			(at 171.45 76.835 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "e9ccd815-f190-4b42-9022-6181841ab2ed")
+		)
+		(pin "NB_SCL" bidirectional
+			(at 171.45 74.295 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "cbf88aa6-6898-4e4e-b4aa-cbf3a17cf582")
+		)
+		(pin "NB_RING" output
+			(at 171.45 66.675 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "8f5f4c73-ebd4-4e1a-a8b1-03662c9f36b7")
+		)
+		(instances
+			(project "WeatherStation"
+				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 88.265)
+		(size 29.21 20.955)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 219 255 218 1.0000)
+		)
+		(uuid "65e81b62-30c9-4494-b232-17e5fa8f6f62")
+		(property "Sheetname" "SENSORS"
+			(at 171.45 87.5534 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SENSORS.kicad_sch"
+			(at 171.45 109.8046 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(pin "~{DUST_IREN}" input
+			(at 171.45 100.33 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "da1a912e-312d-489f-a61c-9f821009a9bc")
+		)
+		(pin "DUST_SEN" output
+			(at 171.45 97.79 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "5216d315-b0b9-4b77-b181-4a61d408353a")
+		)
+		(pin "SCL" input
+			(at 171.45 90.17 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "282df47a-81a7-4776-9a9d-bc1d3b052e9c")
+		)
+		(pin "SDA" bidirectional
+			(at 171.45 92.71 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "a4cf5f46-ef5a-43ac-b864-3bde4c41df9c")
+		)
+		(pin "DUST_EN" input
+			(at 171.45 95.25 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "cff0565a-e33d-4b7c-b725-b8a348393a5a")
+		)
+		(pin "SDA1" bidirectional
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "8dc45d74-a7a2-4a08-af06-cd7d5d5be78a")
+		)
+		(pin "SCL1" input
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "e6d7b8aa-386d-4a66-bd23-36e231b34978")
+		)
+		(pin "VOUT" output
+			(at 200.66 97.79 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "647d2257-ddf4-4dd9-a758-38814f578f82")
+		)
+		(pin "~{LED_EN}" input
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "ce9aa80d-2250-45b2-9e9c-9a66f459d6b2")
+		)
+		(pin "~{RNF_PULSE}" output
+			(at 171.45 106.68 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "ae0d2610-7845-44c4-be0f-676cf784622e")
+		)
+		(pin "~{WSP_PULSE}" output
+			(at 171.45 104.14 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "be9781b7-9966-4221-8ba5-f10162060a33")
+		)
+		(instances
+			(project "WeatherStation"
+				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 44.45)
+		(size 38.1 64.77)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 219 255 218 1.0000)
+		)
+		(uuid "c1b57228-8a74-47e2-83ea-5794be8cbd31")
+		(property "Sheetname" "MCU"
+			(at 120.65 43.8654 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 120.65 109.703 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" bidirectional
+			(at 158.75 90.17 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "226edaa5-0a30-484e-b05d-493c4ebac755")
+		)
+		(pin "SDA" bidirectional
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "05472dab-31eb-4e0b-8a64-47f7a028d817")
+		)
+		(pin "DBG_RXD" input
+			(at 120.65 79.375 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "5e2d5b36-5e5c-48cd-a72e-6ec07fa7fed9")
+		)
+		(pin "DBG_TXD" output
+			(at 120.65 81.915 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "2d87b247-dcac-40bc-acd8-0278bb120415")
+		)
+		(pin "PGC" input
+			(at 120.65 94.615 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "a12ad444-9946-44f9-9709-5ef3f1ff16ce")
+		)
+		(pin "DUST_EN" output
+			(at 158.75 95.25 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "4bd43996-8f41-4524-87de-dee0aa8fe68a")
+		)
+		(pin "PGD" bidirectional
+			(at 120.65 97.155 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "9abc7c5f-2074-4467-af6c-0c553cfe29b5")
+		)
+		(pin "SDO" input
+			(at 120.65 107.315 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "81586df5-cba9-4baf-b43d-05f06985b31c")
+		)
+		(pin "SCLK" input
+			(at 120.65 104.775 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "6f2f448e-385e-4299-aae2-15b7b3fae58b")
+		)
+		(pin "SDI" output
+			(at 120.65 102.235 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "a86bcc76-2687-4ab2-aabb-6b98e3f04f58")
+		)
+		(pin "SOSCI" passive
+			(at 120.65 92.075 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "93a7f7ef-421a-4a78-aac2-2d4981ad461e")
+		)
+		(pin "USB_N" bidirectional
+			(at 120.65 53.975 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "6858baa8-6597-4f03-a275-8967ee5c5c29")
+		)
+		(pin "~{MCLR}" output
+			(at 120.65 99.695 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "30e43603-87a9-4afe-8bc7-36c7df6436f7")
+		)
+		(pin "~{BT_APP}" output
+			(at 120.65 86.995 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "71498358-8e2d-4b11-a352-16b4e4469aa2")
+		)
+		(pin "SOSCO" passive
+			(at 120.65 89.535 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "e9d3a06c-4a5b-43d0-a11d-6ca9de74ea12")
+		)
+		(pin "~{FLASH_CS}" input
+			(at 120.65 84.455 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "20cc445a-037f-4d61-b1e5-9be56c54ae44")
+		)
+		(pin "DUST_SEN" input
+			(at 158.75 97.79 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "aa281473-a698-4dea-9dd1-8f3a9e9ea05e")
+		)
+		(pin "~{RNF_PULSE}" input
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "334aa9a3-315c-48e3-a653-620158908e1c")
+		)
+		(pin "~{WSP_PULSE}" input
+			(at 158.75 104.14 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "586dd3eb-f216-4288-b8eb-e44acaf7e25d")
+		)
+		(pin "~{DUST_IREN}" output
+			(at 158.75 100.33 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "d55b96f1-07ea-4919-ae4d-4aadce4fe50d")
+		)
+		(pin "V5V_SEN" input
+			(at 120.65 64.135 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "bce1014e-66aa-4f26-b5de-a9414646c7ae")
+		)
+		(pin "USB_P" bidirectional
+			(at 120.65 56.515 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "b73f762d-4df1-4fbe-83e0-9dab13a8cedb")
+		)
+		(pin "VSOLAR_SEN" input
+			(at 120.65 69.215 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "0353ae7e-d14a-493d-ab20-306ea7d37064")
+		)
+		(pin "VBUS_SEN" input
+			(at 120.65 59.055 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "54c20865-fc20-439f-aba5-c160c10f5366")
+		)
+		(pin "VBAT_SEN" input
+			(at 120.65 61.595 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "f489912a-6b92-400e-86b9-cabd5d939185")
+		)
+		(pin "VNB_SEN" input
+			(at 120.65 66.675 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "b1e76219-22d6-4417-ab3f-139172c5d75f")
+		)
+		(pin "VNB_EN" output
+			(at 120.65 48.895 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "ee4d3e43-a5e3-4f27-acf3-9a7e87b47c83")
+		)
+		(pin "~{VBAT_LOW}" input
+			(at 120.65 51.435 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "f34c2d8d-450d-4e67-a277-65db221b4f96")
+		)
+		(pin "NB_ONOFF" output
+			(at 158.75 46.355 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "29e1cf28-cf30-4304-973a-5964924ab050")
+		)
+		(pin "NB_RXD" output
+			(at 158.75 61.595 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "f31107ce-0a80-4ba7-a599-93f0fc9ff100")
+		)
+		(pin "NB_TXD" input
+			(at 158.75 59.055 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "0c32317a-f910-4a7d-afa3-3ec64a533517")
+		)
+		(pin "NB_VAUX_SEN" input
+			(at 158.75 56.515 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "8356eeeb-9af9-4431-bdf4-f8b83b1d1fb4")
+		)
+		(pin "NB_USB_P" bidirectional
+			(at 158.75 51.435 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "320a6595-e098-409f-83cd-573b314874f2")
+		)
+		(pin "NB_USB_N" bidirectional
+			(at 158.75 48.895 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "f6d87cf3-b3d5-4e7a-9763-5f429f72a6f0")
+		)
+		(pin "NB_VBUS" output
+			(at 158.75 53.975 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "8d7ca312-6985-4d7c-9ef9-b55d5b49ff21")
+		)
+		(pin "LED_APP" input
+			(at 120.65 76.835 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "9929ea8a-4629-4209-9a25-4aef8f2f11cb")
+		)
+		(pin "NB_ATXD" input
+			(at 158.75 69.215 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "f8e10e40-79f9-4c53-838b-70710191cec9")
+		)
+		(pin "NB_ARXD" output
+			(at 158.75 71.755 0)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "c834684c-fc96-458d-857b-ade4527af6f7")
+		)
+		(pin "VIO_EN" output
+			(at 120.65 46.355 180)
+			(effects
+				(font
+					(face "Consolas")
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "0d4cd41d-f9ef-45ca-bbfc-d5024b95ce7e")
+		)
+		(pin "NB_RING" input
+			(at 158.75 66.675 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "80840d8b-40d0-4450-bd8c-db52506bc7d6")
+		)
+		(pin "NB_DTR" input
+			(at 158.75 64.135 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+			(uuid "d10bd316-29e0-4dab-8cae-af1d2c4b8c8d")
+		)
+		(pin "LED_SYS" output
+			(at 120.65 74.295 180)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+			(uuid "2774c007-b285-4109-bae8-f57698afdffc")
+		)
+		(instances
+			(project "WeatherStation"
+				(path "/1dbde4b3-a3f3-4db1-8613-41244da68cdc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,586 @@
+05-15 08:05:39 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'win32'
+05-15 08:05:39 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.11.5 (main, Apr  9 2024, 02:53:56) [MSC v.1936 64 bit (AMD64)]'
+05-15 08:05:39 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 8.0.2
+05-15 08:05:39 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.12
+
+05-15 08:05:39 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080)]
+05-15 08:05:39 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+05-15 08:05:39 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 15
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 26:Starting to archive 3D models
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R22
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D9
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R25
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C64
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C36
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP5
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R2
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: BT2
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/EVQ-PE105K_PNF05M_5PN05K.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/EVQ-PE105K_PNF05M_5PN05K.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D6
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT363.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT363.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C69
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R43
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C53
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: Q3
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J5
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SIM8051-6-0-14-01-X-REVD.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SIM8051-6-0-14-01-X-REVD.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C43
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C35
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP2
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C30
+05-15 08:06:01 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R48
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U2
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/PowerVQFN15_TI.stp
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/PowerVQFN15_TI.stp
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U12
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SHT4x.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SHT4x.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C3
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C37
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C45
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: Q2
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C23
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C1
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C63
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R32
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D8
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/DO-214AC.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/DO-214AC.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C42
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: Q1
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP13
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C24
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R49
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R29
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C16
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C78
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U16
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R11
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP3
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C44
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U3
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT363.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT363.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C8
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R34
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: FT1
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/IND0805.stp
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/IND0805.stp
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C65
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C84
+05-15 08:06:02 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C80
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP11
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R31
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C66
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R36
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C19
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R6
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C31
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R26
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R50
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C32
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: Q4
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C54
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C13
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R15
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R4
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U11
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/HDM-6x1.5-SMD-R.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/HDM-6x1.5-SMD-R.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C62
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C27
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R24
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: Q5
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U5
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT25_DIODES.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT25_DIODES.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C76
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R7
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J1
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/XH2.54-4P.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/XH2.54-4P.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U8
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C41
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U6
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOIC127P600X175-8N.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOIC127P600X175-8N.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: X1
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/CSYTAL-MC146.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/CSYTAL-MC146.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R1
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C51
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP6
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R38
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R46
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: ANT1
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/AH3G.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/AH3G.STEP
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C33
+05-15 08:06:03 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R5
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D2
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/DO-214AC.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/DO-214AC.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R28
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C67
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U7
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/TQFP48.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/TQFP48.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C57
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C60
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C59
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: MD1
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/xE310-13x14MM.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/xE310-13x14MM.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C15
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP10
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C9
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D7
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R30
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R27
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C14
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C25
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U1
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C49
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C72
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R40
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U14
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/DPS368.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/DPS368.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C26
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C74
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J8
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/HDM-2x4x2.0-TH.stp
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/HDM-2x4x2.0-TH.stp
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D4
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J3
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/PH2-04-UA.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/PH2-04-UA.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: BT1
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/EVQ-PE105K_PNF05M_5PN05K.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/EVQ-PE105K_PNF05M_5PN05K.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R41
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R10
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: L1
+05-15 08:06:04 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SDE0604A.STP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SDE0604A.STP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J4
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/B052VWVN-RC.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/B052VWVN-RC.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C22
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C70
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: L3
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/IND0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/IND0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C39
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C12
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R13
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U15
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R8
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D3
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: Q6
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-3.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R12
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C50
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C2
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R44
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R3
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U4
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/QFN20-4x4x0.8MM.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/QFN20-4x4x0.8MM.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C7
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C73
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R45
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C17
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R20
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R9
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C5
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/A768MS477M1ELAE017.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/A768MS477M1ELAE017.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C81
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C71
+05-15 08:06:05 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C83
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C48
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C18
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R19
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C68
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J2
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP8
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C10
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C40
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C75
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: L2
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SDE0805A.STP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SDE0805A.STP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C6
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C58
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: L4
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SDE0805A.STP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SDE0805A.STP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D1
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/DO-214AC.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/DO-214AC.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP7
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C29
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R17
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: MD2
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/1575R-A.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/1575R-A.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R33
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C28
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R47
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C34
+05-15 08:06:06 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R35
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C61
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C11
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U17
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT25_DIODES.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT25_DIODES.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U13
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R37
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C38
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C79
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP9
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R42
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: ANT2
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/U.FL.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/U.FL.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP14
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C4
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C82
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C20
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/CAP2312-6032.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C77
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP4
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C21
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/0805C.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP12
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C47
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C46
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: Z1
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R23
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: TP1
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U10
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT25_DIODES.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT25_DIODES.step
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R16
+05-15 08:06:07 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J7
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/HDM-2x4x2.0-TH.stp
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/HDM-2x4x2.0-TH.stp
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R18
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: F1
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/1812L110_16DR.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/1812L110_16DR.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: D5
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/LED_0603_WS.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: U9
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/SOT23-6.step
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R21
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C55
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C56
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: C52
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/C0603C104K4RACTU.step
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R14
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: R39
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/RES0603.STEP
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: BAT1
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: J6
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${SAMPI_3DMODEL_DIR}/HDM-2x4x2.0-TH.stp
+05-15 08:06:08 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${SAMPI_3DMODEL_DIR}/HDM-2x4x2.0-TH.stp

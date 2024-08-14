@@ -1,0 +1,52 @@
+STEP translation to Solid Edge
+Date: Saturday,July 13,2024 10:43AM
+Source File: D:\Github\WeatherStation\Production\Enclosure\Anemo_bottom-Base.stp
+Author: Unknown
+Organization: Unknown
+Source System: Solid Edge
+
+Hardware:
+Processor: 11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz
+Operating System: Windows 11 Version:23H2 Build:22631 System Type:64-bit
+Installed Memory: 15.84 GB
+
+Software Information
+Parasolid Version: 36.0.142
+PSBodyShop Version: 36.0.108
+Step Adapter Version: 13.0.163
+Solid Edge Version: 224.00.00.101 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Optimize:Off
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: D:\Github\WeatherStation\Production\Enclosure
+Import Enable Default Output Path: On
+Import PMI: Off
+Import As Internal Components: Off
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File D:\Github\WeatherStation\Production\Enclosure\Anemo_bottom-Base.asm
+Bodies: 0
+|--+Created SE Part File D:\Github\WeatherStation\Production\Enclosure\Anemo_bottom-Base_0.par
+Bodies: 0
++Total Parts: 0
++Assemblies: 0
++Solid Bodies: 0
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 00

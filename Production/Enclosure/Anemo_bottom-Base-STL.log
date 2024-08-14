@@ -1,0 +1,26 @@
+STL translation to Solid Edge
+Date: Saturday,July 13,2024 10:44AM
+Source File:D:\Github\WeatherStation\Production\Enclosure\Anemo_bottom-Base.stl
+Author: Unknown
+Organization: Unknown
+Source System: DEX
+
+Hardware:
+Processor: 11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz
+Operating System: Windows 10
+Installed Memory: 15.84 GB
+
+Software Information:
+Parasolid Version: 36.0.142
+PSBodyshop Version: 36.0.108
+STL Adapter Version: 13.0.193
+Solid Edge Version: 224.00.00.101 x64
+
+STL Import Options
+Heal Mesh Faults:Off
+Make Base Feature:On
+Enable Logging:On
+
+Translation progress:
+Translation process completed
+Time required to translate:00 : 00 : 00

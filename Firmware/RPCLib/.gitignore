@@ -1,0 +1,12 @@
+*.workspace
+*.~(*).*
+
+# Maven 
+Project Backups/
+__Previews/
+History/
+build/
+dist/
+debug/
+*-backups/
+.generated_files/
