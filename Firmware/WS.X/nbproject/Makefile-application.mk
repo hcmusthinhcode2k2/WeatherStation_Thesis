@@ -82,7 +82,7 @@ FIXDEPS=fixDeps
 _/_=\\
 ShExtension=.bat
 Device=PIC32MM0256GPM048
-ProjectDir="D:\WeatherStation\Firmware\WS.X"
+ProjectDir="D:\WeatherStation_Thesis\Firmware\WS.X"
 ProjectName=WS
 ConfName=application
 ImagePath="dist\application\${IMAGE_TYPE}\WS.X.${IMAGE_TYPE}.${OUTPUT_SUFFIX}"
@@ -121,674 +121,674 @@ endif
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/_ext/1566831265/Gpio.o: ../RPCLib/MIPS/System/Gpio.c  .generated_files/flags/application/db79cefb6040ffbf054d6c6ea1ad11f0a04c5cb6 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1566831265/Gpio.o: ../RPCLib/MIPS/System/Gpio.c  .generated_files/flags/application/e9511c395efc6041d170254678970e8a880d09b5 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1566831265" 
 	@${RM} ${OBJECTDIR}/_ext/1566831265/Gpio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1566831265/Gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1566831265/Gpio.o.d" -o ${OBJECTDIR}/_ext/1566831265/Gpio.o ../RPCLib/MIPS/System/Gpio.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/SST25xx_Cfg.o: cfg/SST25xx_Cfg.c  .generated_files/flags/application/b46786d55ee3425a0055fda03ec3ebf45f6c391a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/SST25xx_Cfg.o: cfg/SST25xx_Cfg.c  .generated_files/flags/application/40d0d23546d9bac6e3209348d01ca45809483ebe .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/SST25xx_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/SST25xx_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/SST25xx_Cfg.o.d" -o ${OBJECTDIR}/cfg/SST25xx_Cfg.o cfg/SST25xx_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/Indicator_Cfg.o: cfg/Indicator_Cfg.c  .generated_files/flags/application/be280924296dff81eb8fb87199d2a93cc38fb3cf .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/Indicator_Cfg.o: cfg/Indicator_Cfg.c  .generated_files/flags/application/b1ee6e0fde21013968e8ecee8da0b9b7046fd885 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/Indicator_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/Indicator_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/Indicator_Cfg.o.d" -o ${OBJECTDIR}/cfg/Indicator_Cfg.o cfg/Indicator_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o: cfg/TelitPwrCtrl_Cfg.c  .generated_files/flags/application/76c0df259bf85419319954df5550561416868dc1 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o: cfg/TelitPwrCtrl_Cfg.c  .generated_files/flags/application/f23c26b41a37c5826eb21544625c65bf02611d82 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o.d" -o ${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o cfg/TelitPwrCtrl_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/Debug_Cfg.o: cfg/Debug_Cfg.c  .generated_files/flags/application/1d82db2cc1858497f573035d4106d6c9e687d1e8 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/Debug_Cfg.o: cfg/Debug_Cfg.c  .generated_files/flags/application/9fc804730ca73104ce65898ca663816fb302ee03 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/Debug_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/Debug_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/Debug_Cfg.o.d" -o ${OBJECTDIR}/cfg/Debug_Cfg.o cfg/Debug_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/AS5600_Cfg.o: cfg/AS5600_Cfg.c  .generated_files/flags/application/bfe18359210656bc07a08e0a0dc06e256334b0b3 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/AS5600_Cfg.o: cfg/AS5600_Cfg.c  .generated_files/flags/application/1b42d8273041e5450da3c07ff228064bffcb4aba .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/AS5600_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/AS5600_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/AS5600_Cfg.o.d" -o ${OBJECTDIR}/cfg/AS5600_Cfg.o cfg/AS5600_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/DPS368_Cfg.o: cfg/DPS368_Cfg.c  .generated_files/flags/application/bcffe9f29930bab3647ff8d4381f05d7282ce4c4 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/DPS368_Cfg.o: cfg/DPS368_Cfg.c  .generated_files/flags/application/da49ec42f4e5c6a6bd9477639aa0d4d35320425d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/DPS368_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/DPS368_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/DPS368_Cfg.o.d" -o ${OBJECTDIR}/cfg/DPS368_Cfg.o cfg/DPS368_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/SHT4x_Cfg.o: cfg/SHT4x_Cfg.c  .generated_files/flags/application/6959ce25811d422996becb6f6270ed5bff46ca94 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/SHT4x_Cfg.o: cfg/SHT4x_Cfg.c  .generated_files/flags/application/a755573d39764d2676c9b00e5851c9ded801774d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/SHT4x_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/SHT4x_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/SHT4x_Cfg.o.d" -o ${OBJECTDIR}/cfg/SHT4x_Cfg.o cfg/SHT4x_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o: cfg/GP2Y101xAU_Cfg.c  .generated_files/flags/application/829f0f62d3164029a827506cf61623646b917904 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o: cfg/GP2Y101xAU_Cfg.c  .generated_files/flags/application/f434b9709489374e0bd5b6217906197a4abbb21c .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o.d" -o ${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o cfg/GP2Y101xAU_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/RainFall_Cfg.o: cfg/RainFall_Cfg.c  .generated_files/flags/application/ca04c7fc17724c1884c67fb61c3a6e663e7e18a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/RainFall_Cfg.o: cfg/RainFall_Cfg.c  .generated_files/flags/application/ce39300d9c9d38863717cfa02aec9d3c420c45f9 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/RainFall_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/RainFall_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/RainFall_Cfg.o.d" -o ${OBJECTDIR}/cfg/RainFall_Cfg.o cfg/RainFall_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/Thingsboard_Cfg.o: cfg/Thingsboard_Cfg.c  .generated_files/flags/application/4fa114840dc29bc9de6ca9a5cd738ed1769453b4 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/Thingsboard_Cfg.o: cfg/Thingsboard_Cfg.c  .generated_files/flags/application/eefe0ea988b5cfcd52952dac1416e08ef8e27981 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/Thingsboard_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/Thingsboard_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/Thingsboard_Cfg.o.d" -o ${OBJECTDIR}/cfg/Thingsboard_Cfg.o cfg/Thingsboard_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/WindSpeed_Cfg.o: cfg/WindSpeed_Cfg.c  .generated_files/flags/application/c6465c85f2a49978e5f0602b69630eb353397bc2 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/WindSpeed_Cfg.o: cfg/WindSpeed_Cfg.c  .generated_files/flags/application/876e4be7a1f14c0c8a7cf38024bead3100a7e294 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/WindSpeed_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/WindSpeed_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/WindSpeed_Cfg.o.d" -o ${OBJECTDIR}/cfg/WindSpeed_Cfg.o cfg/WindSpeed_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o: cfg/TelitAtCmd_Cfg.c  .generated_files/flags/application/5f689d29a4a200bb77419e9664ede3670532c80 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o: cfg/TelitAtCmd_Cfg.c  .generated_files/flags/application/f32be9c50248ac3482dd456d3cb7ee21b984a8d9 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o.d" -o ${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o cfg/TelitAtCmd_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o: mcc_generated_files/drivers/spi_master.c  .generated_files/flags/application/d041caf7b72f52381919aee46e10ac16c3c26d66 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o: mcc_generated_files/drivers/spi_master.c  .generated_files/flags/application/42a68f75bf80015ca08cb8793ec4d059f7f38ed3 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/drivers" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o.d" -o ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o mcc_generated_files/drivers/spi_master.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/usb/usb_device.o: mcc_generated_files/usb/usb_device.c  .generated_files/flags/application/f1d789ff784aa54051c25206239fad948245a5e1 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/usb/usb_device.o: mcc_generated_files/usb/usb_device.c  .generated_files/flags/application/21977394665a09ada9b764f1a50c4d0757966384 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/usb" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/usb/usb_device.o.d" -o ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o mcc_generated_files/usb/usb_device.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o: mcc_generated_files/usb/usb_device_events.c  .generated_files/flags/application/c7699bbc599f0826d726f3dfe4917eabc8c330b4 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o: mcc_generated_files/usb/usb_device_events.c  .generated_files/flags/application/89d2d0234b72de3ca0dc1c6db6ea87ea8ca680f7 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/usb" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o.d" -o ${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o mcc_generated_files/usb/usb_device_events.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o: mcc_generated_files/usb/usb_descriptors.c  .generated_files/flags/application/50757d98eae011d8f0f15bbcd7939d81446eae91 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o: mcc_generated_files/usb/usb_descriptors.c  .generated_files/flags/application/67820e567987367e1beaeaf7e4a0e2ca158f8366 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/usb" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o.d" -o ${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o mcc_generated_files/usb/usb_descriptors.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o: mcc_generated_files/usb/usb_device_cdc.c  .generated_files/flags/application/7c8cae5120cb9560232207b0dfabd49ba9315ce2 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o: mcc_generated_files/usb/usb_device_cdc.c  .generated_files/flags/application/5de5ce2f65fdd18ba10d26be553e2eb37dac7a94 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/usb" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o.d" -o ${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o mcc_generated_files/usb/usb_device_cdc.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/pin_manager.o: mcc_generated_files/pin_manager.c  .generated_files/flags/application/4ab0ad543550555ffc96b6c1682762fa6bb9de30 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/pin_manager.o: mcc_generated_files/pin_manager.c  .generated_files/flags/application/782eb2dd1cd289d460b4bea472d45000de1257e6 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/pin_manager.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/pin_manager.o.d" -o ${OBJECTDIR}/mcc_generated_files/pin_manager.o mcc_generated_files/pin_manager.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/clock.o: mcc_generated_files/clock.c  .generated_files/flags/application/96ff831e9b21da029ee59e21b7a2e55817dfebbd .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/clock.o: mcc_generated_files/clock.c  .generated_files/flags/application/9cadb50317b0dd7b314d1b2a7ddbc846ac31e7e .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/clock.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/clock.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/clock.o.d" -o ${OBJECTDIR}/mcc_generated_files/clock.o mcc_generated_files/clock.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/coretimer.o: mcc_generated_files/coretimer.c  .generated_files/flags/application/c866f6ba426ce713eba36433adca3b861c413c84 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/coretimer.o: mcc_generated_files/coretimer.c  .generated_files/flags/application/3c27da813775887086909e58d005660cd9ae78f3 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/coretimer.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/coretimer.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/coretimer.o.d" -o ${OBJECTDIR}/mcc_generated_files/coretimer.o mcc_generated_files/coretimer.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/interrupt_manager.o: mcc_generated_files/interrupt_manager.c  .generated_files/flags/application/e13904cbabc7f556e76f0d7ed57c4857cddcaa9f .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/interrupt_manager.o: mcc_generated_files/interrupt_manager.c  .generated_files/flags/application/b45d49c4605267003597efe864a71894de2b33fa .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d" -o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o mcc_generated_files/interrupt_manager.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/system.o: mcc_generated_files/system.c  .generated_files/flags/application/689af5bfebb9cc03305bf60d3a6336d9ddcd2b4f .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/system.o: mcc_generated_files/system.c  .generated_files/flags/application/6545ce97b9da5c8dec8256319bb31f5f68170271 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/system.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/system.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/system.o.d" -o ${OBJECTDIR}/mcc_generated_files/system.o mcc_generated_files/system.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/exceptions.o: mcc_generated_files/exceptions.c  .generated_files/flags/application/85378806be251f29c290074bf0ee300f3cb81c80 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/exceptions.o: mcc_generated_files/exceptions.c  .generated_files/flags/application/1bc94664ec3b1179099cb0039247dc978fe184c8 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/exceptions.o.d" -o ${OBJECTDIR}/mcc_generated_files/exceptions.o mcc_generated_files/exceptions.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/application/cea69eb9a74c9add4353e15cf70a20628384b373 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/application/39b17fc38ae8efa97622e95e6140893983aee4f1 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -o ${OBJECTDIR}/mcc_generated_files/mcc.o mcc_generated_files/mcc.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/spi2_driver.o: mcc_generated_files/spi2_driver.c  .generated_files/flags/application/b823d1fee7f63a9ee6448d20c9f1397619a634b6 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/spi2_driver.o: mcc_generated_files/spi2_driver.c  .generated_files/flags/application/5964ed6f74c64cd2236d61a7b0aa61a359258ca9 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/spi2_driver.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/spi2_driver.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/spi2_driver.o.d" -o ${OBJECTDIR}/mcc_generated_files/spi2_driver.o mcc_generated_files/spi2_driver.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/adc1.o: mcc_generated_files/adc1.c  .generated_files/flags/application/d3fc2ed581cbd0d0b035d22d6c5c8807ce978787 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/adc1.o: mcc_generated_files/adc1.c  .generated_files/flags/application/d58cc7da093b8714bea6150ed0bf9e92f28bd349 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/adc1.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/adc1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/adc1.o.d" -o ${OBJECTDIR}/mcc_generated_files/adc1.o mcc_generated_files/adc1.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/ext_int.o: mcc_generated_files/ext_int.c  .generated_files/flags/application/e908f466f804859c6da1d1e3bc16a33653fb824c .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/ext_int.o: mcc_generated_files/ext_int.c  .generated_files/flags/application/5a40619d9e4f00cc3827548d52e36494fd1de7bc .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/ext_int.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/ext_int.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/ext_int.o.d" -o ${OBJECTDIR}/mcc_generated_files/ext_int.o mcc_generated_files/ext_int.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/tmr1.o: mcc_generated_files/tmr1.c  .generated_files/flags/application/d44175ea3066d4f19545316da50a6ec4b2775201 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/tmr1.o: mcc_generated_files/tmr1.c  .generated_files/flags/application/72a7cccffac0406ddea1c0d1d7c75a4fc7df4d6 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/tmr1.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/tmr1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/tmr1.o.d" -o ${OBJECTDIR}/mcc_generated_files/tmr1.o mcc_generated_files/tmr1.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/uart1.o: mcc_generated_files/uart1.c  .generated_files/flags/application/3dfc036f11aa9380b66b6e8f52bb0378a1fb0505 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/uart1.o: mcc_generated_files/uart1.c  .generated_files/flags/application/d569f6ed6fc461fe6a878b24cce8dbf88315a95 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/uart1.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/uart1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/uart1.o.d" -o ${OBJECTDIR}/mcc_generated_files/uart1.o mcc_generated_files/uart1.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/rtcc.o: mcc_generated_files/rtcc.c  .generated_files/flags/application/dda7fa71004e76c40fe1e83c383429c1ea1299a9 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/rtcc.o: mcc_generated_files/rtcc.c  .generated_files/flags/application/31036d1f9f0be0d377c586675335211c668bfc80 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/rtcc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/rtcc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/rtcc.o.d" -o ${OBJECTDIR}/mcc_generated_files/rtcc.o mcc_generated_files/rtcc.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/i2c1.o: mcc_generated_files/i2c1.c  .generated_files/flags/application/6348b4a8bf97f6044019323081ce09700f4c996d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/i2c1.o: mcc_generated_files/i2c1.c  .generated_files/flags/application/aca3606d3cfb061126ea0a8b1f18accfedd7e01a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/i2c1.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/i2c1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/i2c1.o.d" -o ${OBJECTDIR}/mcc_generated_files/i2c1.o mcc_generated_files/i2c1.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/651594321/Buttons.o: ../RPCLib/MIPS/Buttons/Buttons.c  .generated_files/flags/application/1ec2ffe0dc3f280add89d06b571ba1a284b0db2c .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/651594321/Buttons.o: ../RPCLib/MIPS/Buttons/Buttons.c  .generated_files/flags/application/5f009e72619a0291bb251871343a3777476393ab .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/651594321" 
 	@${RM} ${OBJECTDIR}/_ext/651594321/Buttons.o.d 
 	@${RM} ${OBJECTDIR}/_ext/651594321/Buttons.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/651594321/Buttons.o.d" -o ${OBJECTDIR}/_ext/651594321/Buttons.o ../RPCLib/MIPS/Buttons/Buttons.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o: ../RPCLib/MIPS/Cellular/TelitPwrCtrl.c  .generated_files/flags/application/18ce04071f4ad725de29af55838e203a083046fe .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o: ../RPCLib/MIPS/Cellular/TelitPwrCtrl.c  .generated_files/flags/application/96b0dfe3a3128742e72c56dcc8407f07982a47ad .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1084004198" 
 	@${RM} ${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o.d" -o ${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o ../RPCLib/MIPS/Cellular/TelitPwrCtrl.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o: ../RPCLib/MIPS/Cellular/TelitAtCmd.c  .generated_files/flags/application/c23d983a552e8f974f54974444b9ba0092d339fe .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o: ../RPCLib/MIPS/Cellular/TelitAtCmd.c  .generated_files/flags/application/52a0c26c20c96aa0bc87e9d49fde03473a1c4186 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1084004198" 
 	@${RM} ${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o.d" -o ${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o ../RPCLib/MIPS/Cellular/TelitAtCmd.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/2034318053/Debug.o: ../RPCLib/MIPS/Common/Debug.c  .generated_files/flags/application/d30df9db37def5e5580e2c1202d3156e116f0e38 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/2034318053/Debug.o: ../RPCLib/MIPS/Common/Debug.c  .generated_files/flags/application/dced94bf4c38637cb0b51c9ffc46b7acda7daee .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/2034318053" 
 	@${RM} ${OBJECTDIR}/_ext/2034318053/Debug.o.d 
 	@${RM} ${OBJECTDIR}/_ext/2034318053/Debug.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/2034318053/Debug.o.d" -o ${OBJECTDIR}/_ext/2034318053/Debug.o ../RPCLib/MIPS/Common/Debug.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/2034318053/Utils.o: ../RPCLib/MIPS/Common/Utils.c  .generated_files/flags/application/bbad49e096e234261456d77aae4a8dbe310c3c12 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/2034318053/Utils.o: ../RPCLib/MIPS/Common/Utils.c  .generated_files/flags/application/f5ec61ef410109317250d62997429208d3c83320 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/2034318053" 
 	@${RM} ${OBJECTDIR}/_ext/2034318053/Utils.o.d 
 	@${RM} ${OBJECTDIR}/_ext/2034318053/Utils.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/2034318053/Utils.o.d" -o ${OBJECTDIR}/_ext/2034318053/Utils.o ../RPCLib/MIPS/Common/Utils.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1606675233/Indicator.o: ../RPCLib/MIPS/Indicator/Indicator.c  .generated_files/flags/application/a8cdada6a0687887dbd9aea4155bfe4a10a27fd4 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1606675233/Indicator.o: ../RPCLib/MIPS/Indicator/Indicator.c  .generated_files/flags/application/832e1e526443935d6400ff4a12eebccb471c0234 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1606675233" 
 	@${RM} ${OBJECTDIR}/_ext/1606675233/Indicator.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1606675233/Indicator.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1606675233/Indicator.o.d" -o ${OBJECTDIR}/_ext/1606675233/Indicator.o ../RPCLib/MIPS/Indicator/Indicator.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1757259727/SST25xx.o: ../RPCLib/MIPS/Memory/SST25xx.c  .generated_files/flags/application/4c5dd4e1fbe84b3e481fc5a2b13b1d6ef7dfcb08 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1757259727/SST25xx.o: ../RPCLib/MIPS/Memory/SST25xx.c  .generated_files/flags/application/987fb94f6fd08d503dcf90f4dc7ba12f439b5db8 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1757259727" 
 	@${RM} ${OBJECTDIR}/_ext/1757259727/SST25xx.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1757259727/SST25xx.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1757259727/SST25xx.o.d" -o ${OBJECTDIR}/_ext/1757259727/SST25xx.o ../RPCLib/MIPS/Memory/SST25xx.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/AS5600.o: ../RPCLib/MIPS/Sensors/AS5600.c  .generated_files/flags/application/537fe93062fe291b3851deec6e7088c9185a337d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/AS5600.o: ../RPCLib/MIPS/Sensors/AS5600.c  .generated_files/flags/application/7719912d16a3a4fc9030b817e6352390a52f9018 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/AS5600.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/AS5600.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/AS5600.o.d" -o ${OBJECTDIR}/_ext/1904349495/AS5600.o ../RPCLib/MIPS/Sensors/AS5600.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/DPS368.o: ../RPCLib/MIPS/Sensors/DPS368.c  .generated_files/flags/application/3d72a9a0aa4ba95089e438e07fca6d44985d7ec4 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/DPS368.o: ../RPCLib/MIPS/Sensors/DPS368.c  .generated_files/flags/application/9ef825367fd4bd1bf11393ec9c9505080a6b5cba .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/DPS368.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/DPS368.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/DPS368.o.d" -o ${OBJECTDIR}/_ext/1904349495/DPS368.o ../RPCLib/MIPS/Sensors/DPS368.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/RainFall.o: ../RPCLib/MIPS/Sensors/RainFall.c  .generated_files/flags/application/48c1445ae89e69ae04d394e7bf066acea3e69ea7 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/RainFall.o: ../RPCLib/MIPS/Sensors/RainFall.c  .generated_files/flags/application/782d1740766864d6970cf5f930cac9f334acfac2 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/RainFall.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/RainFall.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/RainFall.o.d" -o ${OBJECTDIR}/_ext/1904349495/RainFall.o ../RPCLib/MIPS/Sensors/RainFall.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o: ../RPCLib/MIPS/Sensors/GP2Y101xAU.c  .generated_files/flags/application/d3f99ef96e39f60fa2a6c4ab342aec11f784b045 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o: ../RPCLib/MIPS/Sensors/GP2Y101xAU.c  .generated_files/flags/application/1e4fc7e815932c5933fef9e753d2e79ff531de21 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o.d" -o ${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o ../RPCLib/MIPS/Sensors/GP2Y101xAU.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/WindSpeed.o: ../RPCLib/MIPS/Sensors/WindSpeed.c  .generated_files/flags/application/d98db92a9eae336355ea6e31f40d73e1e58d166a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/WindSpeed.o: ../RPCLib/MIPS/Sensors/WindSpeed.c  .generated_files/flags/application/32d257a22b1864e118fc38bf69b3ea60c54c2d0a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/WindSpeed.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/WindSpeed.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/WindSpeed.o.d" -o ${OBJECTDIR}/_ext/1904349495/WindSpeed.o ../RPCLib/MIPS/Sensors/WindSpeed.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/SHT4x.o: ../RPCLib/MIPS/Sensors/SHT4x.c  .generated_files/flags/application/be022918e8f02520e73290d672e9dc032d31ed78 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/SHT4x.o: ../RPCLib/MIPS/Sensors/SHT4x.c  .generated_files/flags/application/43ead28304e4425e498c5e4f3acdefcb24f70504 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/SHT4x.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/SHT4x.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/SHT4x.o.d" -o ${OBJECTDIR}/_ext/1904349495/SHT4x.o ../RPCLib/MIPS/Sensors/SHT4x.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/sensirion_common.o: ../RPCLib/MIPS/Sensors/sensirion_common.c  .generated_files/flags/application/47d58905c9c55f0d1ba2d39426f116955db26717 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/sensirion_common.o: ../RPCLib/MIPS/Sensors/sensirion_common.c  .generated_files/flags/application/b03aa50ff65a52d9d7054cc6962956e739e3c7bd .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/sensirion_common.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/sensirion_common.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/sensirion_common.o.d" -o ${OBJECTDIR}/_ext/1904349495/sensirion_common.o ../RPCLib/MIPS/Sensors/sensirion_common.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/sht_git_version.o: ../RPCLib/MIPS/Sensors/sht_git_version.c  .generated_files/flags/application/30b942ea2edb165bb5ab4217f767d44ca267e705 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/sht_git_version.o: ../RPCLib/MIPS/Sensors/sht_git_version.c  .generated_files/flags/application/a2b6a9d1117b292c6ad4e2c056f41f1777f21b2e .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/sht_git_version.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/sht_git_version.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/sht_git_version.o.d" -o ${OBJECTDIR}/_ext/1904349495/sht_git_version.o ../RPCLib/MIPS/Sensors/sht_git_version.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/650698433/TaskManager.o: ../RPCLib/MIPS/system/TaskManager.c  .generated_files/flags/application/96ffec8ce047541cb13f27a0114f59773a1526cf .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/650698433/TaskManager.o: ../RPCLib/MIPS/system/TaskManager.c  .generated_files/flags/application/e1b2c11d8c449438628e23099b7e21c14445be55 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/650698433" 
 	@${RM} ${OBJECTDIR}/_ext/650698433/TaskManager.o.d 
 	@${RM} ${OBJECTDIR}/_ext/650698433/TaskManager.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/650698433/TaskManager.o.d" -o ${OBJECTDIR}/_ext/650698433/TaskManager.o ../RPCLib/MIPS/system/TaskManager.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/650698433/TickTimer.o: ../RPCLib/MIPS/system/TickTimer.c  .generated_files/flags/application/6ddc26da2a1ed19d784cb0d7eab0faa22cfb336a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/650698433/TickTimer.o: ../RPCLib/MIPS/system/TickTimer.c  .generated_files/flags/application/af6aa59995bb473b41996fa2c84315f3b31ad439 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/650698433" 
 	@${RM} ${OBJECTDIR}/_ext/650698433/TickTimer.o.d 
 	@${RM} ${OBJECTDIR}/_ext/650698433/TickTimer.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/650698433/TickTimer.o.d" -o ${OBJECTDIR}/_ext/650698433/TickTimer.o ../RPCLib/MIPS/system/TickTimer.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1566831265/softWdt.o: ../RPCLib/MIPS/System/softWdt.c  .generated_files/flags/application/2e028597563158f68078a59148dc5cca34019969 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1566831265/softWdt.o: ../RPCLib/MIPS/System/softWdt.c  .generated_files/flags/application/5aa5063af045478a017700d625722ebd86099332 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1566831265" 
 	@${RM} ${OBJECTDIR}/_ext/1566831265/softWdt.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1566831265/softWdt.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1566831265/softWdt.o.d" -o ${OBJECTDIR}/_ext/1566831265/softWdt.o ../RPCLib/MIPS/System/softWdt.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/AppMain.o: user/AppMain.c  .generated_files/flags/application/30de7758496b07175000eb94949e640f94818bcf .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/AppMain.o: user/AppMain.c  .generated_files/flags/application/34eed7eaa6b56160d8bbd21b20735793e6ccd18a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/AppMain.o.d 
 	@${RM} ${OBJECTDIR}/user/AppMain.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/AppMain.o.d" -o ${OBJECTDIR}/user/AppMain.o user/AppMain.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/Power_Monitor.o: user/Power_Monitor.c  .generated_files/flags/application/ef3ea57d5eaa024167c7a1abc10c40491b94aed8 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/Power_Monitor.o: user/Power_Monitor.c  .generated_files/flags/application/fe17a238b455e4f286c57fe5e33e6829bef3ba42 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/Power_Monitor.o.d 
 	@${RM} ${OBJECTDIR}/user/Power_Monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/Power_Monitor.o.d" -o ${OBJECTDIR}/user/Power_Monitor.o user/Power_Monitor.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/VCP.o: user/VCP.c  .generated_files/flags/application/29641fdfebe265f5764550b8ed668c2d3bb00c2b .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/VCP.o: user/VCP.c  .generated_files/flags/application/37894b3f3a1df2faca8c0604649f60987f5cdd26 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/VCP.o.d 
 	@${RM} ${OBJECTDIR}/user/VCP.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/VCP.o.d" -o ${OBJECTDIR}/user/VCP.o user/VCP.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/VCP_Debug.o: user/VCP_Debug.c  .generated_files/flags/application/6607c0e8d92666339605080adf67d40c8084d63e .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/VCP_Debug.o: user/VCP_Debug.c  .generated_files/flags/application/47da133bbc5ca0d23820e8138f9b9242bc69976f .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/VCP_Debug.o.d 
 	@${RM} ${OBJECTDIR}/user/VCP_Debug.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/VCP_Debug.o.d" -o ${OBJECTDIR}/user/VCP_Debug.o user/VCP_Debug.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/Thingsboard.o: user/Thingsboard.c  .generated_files/flags/application/12c04e67e64abb2fe9b3345a25dc31877fd78368 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/Thingsboard.o: user/Thingsboard.c  .generated_files/flags/application/a3b1b4b918fba0fb82f576cadaeb95a8a213067a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/Thingsboard.o.d 
 	@${RM} ${OBJECTDIR}/user/Thingsboard.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/Thingsboard.o.d" -o ${OBJECTDIR}/user/Thingsboard.o user/Thingsboard.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/main.o: main.c  .generated_files/flags/application/54944576b5cfa7c5946b9085e3b15fb9eb77751d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/main.o: main.c  .generated_files/flags/application/f75c2dbbfa0163784ef38dfd040941e9fed5ad63 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/main.o.d" -o ${OBJECTDIR}/main.o main.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 else
-${OBJECTDIR}/_ext/1566831265/Gpio.o: ../RPCLib/MIPS/System/Gpio.c  .generated_files/flags/application/5b9b84e964fd27cbb7f392ba927e4cba16cb5a59 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1566831265/Gpio.o: ../RPCLib/MIPS/System/Gpio.c  .generated_files/flags/application/a8736a755d92447855a885aa230edb01f39c16e .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1566831265" 
 	@${RM} ${OBJECTDIR}/_ext/1566831265/Gpio.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1566831265/Gpio.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1566831265/Gpio.o.d" -o ${OBJECTDIR}/_ext/1566831265/Gpio.o ../RPCLib/MIPS/System/Gpio.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/SST25xx_Cfg.o: cfg/SST25xx_Cfg.c  .generated_files/flags/application/ad8c354d19b2a63307c571e5fff7259cd53cecdf .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/SST25xx_Cfg.o: cfg/SST25xx_Cfg.c  .generated_files/flags/application/456e9eab0ce538ab6fcdccdad318f42d99d07ae .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/SST25xx_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/SST25xx_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/SST25xx_Cfg.o.d" -o ${OBJECTDIR}/cfg/SST25xx_Cfg.o cfg/SST25xx_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/Indicator_Cfg.o: cfg/Indicator_Cfg.c  .generated_files/flags/application/a89e7f7a90174aad9e3aa78e713ef0c2501f9973 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/Indicator_Cfg.o: cfg/Indicator_Cfg.c  .generated_files/flags/application/96f7ce06fb46f4acb6a81882861b04b9bcd452f6 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/Indicator_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/Indicator_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/Indicator_Cfg.o.d" -o ${OBJECTDIR}/cfg/Indicator_Cfg.o cfg/Indicator_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o: cfg/TelitPwrCtrl_Cfg.c  .generated_files/flags/application/6e9c45df2fd2e5822bd82223572d9f5edbee9acb .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o: cfg/TelitPwrCtrl_Cfg.c  .generated_files/flags/application/a22a0529fe099f5ff74eae64adfb69e9fe34bc5e .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o.d" -o ${OBJECTDIR}/cfg/TelitPwrCtrl_Cfg.o cfg/TelitPwrCtrl_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/Debug_Cfg.o: cfg/Debug_Cfg.c  .generated_files/flags/application/949473552ae1e6390ae0c60302825104eb09188b .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/Debug_Cfg.o: cfg/Debug_Cfg.c  .generated_files/flags/application/d55be4f844fb03c0b8f90839cfe8b3a386fd7dc8 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/Debug_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/Debug_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/Debug_Cfg.o.d" -o ${OBJECTDIR}/cfg/Debug_Cfg.o cfg/Debug_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/AS5600_Cfg.o: cfg/AS5600_Cfg.c  .generated_files/flags/application/3b2c6252bf6476ead9e2131eb9de0f889f1e25d8 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/AS5600_Cfg.o: cfg/AS5600_Cfg.c  .generated_files/flags/application/9f1583e347b6de53a93b54c92e63ab74ecb51d2c .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/AS5600_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/AS5600_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/AS5600_Cfg.o.d" -o ${OBJECTDIR}/cfg/AS5600_Cfg.o cfg/AS5600_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/DPS368_Cfg.o: cfg/DPS368_Cfg.c  .generated_files/flags/application/c477255ce8339627e78da899f42d3e56065d636b .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/DPS368_Cfg.o: cfg/DPS368_Cfg.c  .generated_files/flags/application/61bd2dc257ec1799b517b8960aa74e6b11409340 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/DPS368_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/DPS368_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/DPS368_Cfg.o.d" -o ${OBJECTDIR}/cfg/DPS368_Cfg.o cfg/DPS368_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/SHT4x_Cfg.o: cfg/SHT4x_Cfg.c  .generated_files/flags/application/f7c2ac86c0e12b82ccdac802b609e8e1054b9bb3 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/SHT4x_Cfg.o: cfg/SHT4x_Cfg.c  .generated_files/flags/application/35d1d65a69697b99b392a13948439adb3cd161fe .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/SHT4x_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/SHT4x_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/SHT4x_Cfg.o.d" -o ${OBJECTDIR}/cfg/SHT4x_Cfg.o cfg/SHT4x_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o: cfg/GP2Y101xAU_Cfg.c  .generated_files/flags/application/8640cfc4226dca4a1878baa907b3e41bc8690807 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o: cfg/GP2Y101xAU_Cfg.c  .generated_files/flags/application/aaf1f14ad51e9db9d230074d26ef6844de2740b7 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o.d" -o ${OBJECTDIR}/cfg/GP2Y101xAU_Cfg.o cfg/GP2Y101xAU_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/RainFall_Cfg.o: cfg/RainFall_Cfg.c  .generated_files/flags/application/14c0fbaf18c24395d6454ac0caf897433a42a1d1 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/RainFall_Cfg.o: cfg/RainFall_Cfg.c  .generated_files/flags/application/b6011d999dfbc7722376b0ee65a2f635f05733f9 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/RainFall_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/RainFall_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/RainFall_Cfg.o.d" -o ${OBJECTDIR}/cfg/RainFall_Cfg.o cfg/RainFall_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/Thingsboard_Cfg.o: cfg/Thingsboard_Cfg.c  .generated_files/flags/application/73b5731e8bb24f30a1168c6e6f2af1d80bcb2a42 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/Thingsboard_Cfg.o: cfg/Thingsboard_Cfg.c  .generated_files/flags/application/e2bc6f0e57b59935e9335a724b80283be031db26 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/Thingsboard_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/Thingsboard_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/Thingsboard_Cfg.o.d" -o ${OBJECTDIR}/cfg/Thingsboard_Cfg.o cfg/Thingsboard_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/WindSpeed_Cfg.o: cfg/WindSpeed_Cfg.c  .generated_files/flags/application/ec5dba17584b6f3b15cfe9c7eaa30597491c9691 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/WindSpeed_Cfg.o: cfg/WindSpeed_Cfg.c  .generated_files/flags/application/e51ce94a8be71aa6379e4fd7bc2b1d288b902a04 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/WindSpeed_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/WindSpeed_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/WindSpeed_Cfg.o.d" -o ${OBJECTDIR}/cfg/WindSpeed_Cfg.o cfg/WindSpeed_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o: cfg/TelitAtCmd_Cfg.c  .generated_files/flags/application/8bf4d0b403f919f95ca1311b95ecb2824ee32ec9 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o: cfg/TelitAtCmd_Cfg.c  .generated_files/flags/application/34ebf38b2b2645d20759ae77c01c78822e8bb83 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/cfg" 
 	@${RM} ${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o.d 
 	@${RM} ${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o.d" -o ${OBJECTDIR}/cfg/TelitAtCmd_Cfg.o cfg/TelitAtCmd_Cfg.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o: mcc_generated_files/drivers/spi_master.c  .generated_files/flags/application/a990bcdcf1e22997be3402e0f692d845b6ad2be8 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o: mcc_generated_files/drivers/spi_master.c  .generated_files/flags/application/29832db6b6869b988498483d0b83b57e94b40352 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/drivers" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o.d" -o ${OBJECTDIR}/mcc_generated_files/drivers/spi_master.o mcc_generated_files/drivers/spi_master.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/usb/usb_device.o: mcc_generated_files/usb/usb_device.c  .generated_files/flags/application/f05afe6da8c60f07e9f866373d9a1e184bfd76d6 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/usb/usb_device.o: mcc_generated_files/usb/usb_device.c  .generated_files/flags/application/d2a53b965bebf71e9336a916f952a2f81de6ff58 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/usb" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/usb/usb_device.o.d" -o ${OBJECTDIR}/mcc_generated_files/usb/usb_device.o mcc_generated_files/usb/usb_device.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o: mcc_generated_files/usb/usb_device_events.c  .generated_files/flags/application/aae1f3b91f3c0716a327f07cea8a3d149430ae0d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o: mcc_generated_files/usb/usb_device_events.c  .generated_files/flags/application/d946888c4e5447f412c89909892276ac023ff061 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/usb" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o.d" -o ${OBJECTDIR}/mcc_generated_files/usb/usb_device_events.o mcc_generated_files/usb/usb_device_events.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o: mcc_generated_files/usb/usb_descriptors.c  .generated_files/flags/application/ca8c0b83b2b12328808252f5575aefeb4da4a99d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o: mcc_generated_files/usb/usb_descriptors.c  .generated_files/flags/application/199f5aea77e236bc54c0301b0d2e1b4debe37744 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/usb" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o.d" -o ${OBJECTDIR}/mcc_generated_files/usb/usb_descriptors.o mcc_generated_files/usb/usb_descriptors.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o: mcc_generated_files/usb/usb_device_cdc.c  .generated_files/flags/application/dec54ca408d6b277601f174f1405903fe14aa614 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o: mcc_generated_files/usb/usb_device_cdc.c  .generated_files/flags/application/1f45058b296713d7f7e478a9f2f352f48d7b2d55 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files/usb" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o.d" -o ${OBJECTDIR}/mcc_generated_files/usb/usb_device_cdc.o mcc_generated_files/usb/usb_device_cdc.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/pin_manager.o: mcc_generated_files/pin_manager.c  .generated_files/flags/application/2a638a62cbf1ecfd6d62d41d07504adbda39db80 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/pin_manager.o: mcc_generated_files/pin_manager.c  .generated_files/flags/application/4a9c1b9b68ae1a32a902f6fe1970ca7fd9fa4c90 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/pin_manager.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/pin_manager.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/pin_manager.o.d" -o ${OBJECTDIR}/mcc_generated_files/pin_manager.o mcc_generated_files/pin_manager.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/clock.o: mcc_generated_files/clock.c  .generated_files/flags/application/322568ceb4e1e450d9f872025f92c16584e7722 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/clock.o: mcc_generated_files/clock.c  .generated_files/flags/application/dd0c2667823a9e66b2c9ea59cce3643b46dfc298 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/clock.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/clock.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/clock.o.d" -o ${OBJECTDIR}/mcc_generated_files/clock.o mcc_generated_files/clock.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/coretimer.o: mcc_generated_files/coretimer.c  .generated_files/flags/application/fda6bde2e35c275e7b7afb23a702ecfda826b299 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/coretimer.o: mcc_generated_files/coretimer.c  .generated_files/flags/application/802d752cece4e0de501924481f91b0c878e6897b .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/coretimer.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/coretimer.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/coretimer.o.d" -o ${OBJECTDIR}/mcc_generated_files/coretimer.o mcc_generated_files/coretimer.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/interrupt_manager.o: mcc_generated_files/interrupt_manager.c  .generated_files/flags/application/749cfe205507a9a1d02ab74fb1fb5f52d2701329 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/interrupt_manager.o: mcc_generated_files/interrupt_manager.c  .generated_files/flags/application/37c761a770863fd6596d526fbf5a3d9886568271 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/interrupt_manager.o.d" -o ${OBJECTDIR}/mcc_generated_files/interrupt_manager.o mcc_generated_files/interrupt_manager.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/system.o: mcc_generated_files/system.c  .generated_files/flags/application/d2ecbe26971c597382f689d50d54ac80a21bc85f .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/system.o: mcc_generated_files/system.c  .generated_files/flags/application/52229636886d40174f52db70d90c03dbd9142fdf .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/system.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/system.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/system.o.d" -o ${OBJECTDIR}/mcc_generated_files/system.o mcc_generated_files/system.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/exceptions.o: mcc_generated_files/exceptions.c  .generated_files/flags/application/bc60701f358f687fd4bf8add2fe78658de3f5710 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/exceptions.o: mcc_generated_files/exceptions.c  .generated_files/flags/application/bbaf024bbd0513e7772f8b16a8d620856331fda2 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/exceptions.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/exceptions.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/exceptions.o.d" -o ${OBJECTDIR}/mcc_generated_files/exceptions.o mcc_generated_files/exceptions.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/application/94f814e861c39b62ca979a4b3ab1a6c887e69f4f .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/mcc.o: mcc_generated_files/mcc.c  .generated_files/flags/application/9b510c43f8f9debb5b2964b21299546db33bef8e .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/mcc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/mcc.o.d" -o ${OBJECTDIR}/mcc_generated_files/mcc.o mcc_generated_files/mcc.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/spi2_driver.o: mcc_generated_files/spi2_driver.c  .generated_files/flags/application/1edfb00560d8c53fa73de2dee3c70f12729d1e7d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/spi2_driver.o: mcc_generated_files/spi2_driver.c  .generated_files/flags/application/3d3881116edd4305aaf8d21e92951c90f39a871d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/spi2_driver.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/spi2_driver.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/spi2_driver.o.d" -o ${OBJECTDIR}/mcc_generated_files/spi2_driver.o mcc_generated_files/spi2_driver.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/adc1.o: mcc_generated_files/adc1.c  .generated_files/flags/application/6659bfcab7c762d2c8b7c6edc5b2cbc5524497f1 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/adc1.o: mcc_generated_files/adc1.c  .generated_files/flags/application/65f988a3ddc46f4448fd532a2a647f2993222740 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/adc1.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/adc1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/adc1.o.d" -o ${OBJECTDIR}/mcc_generated_files/adc1.o mcc_generated_files/adc1.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/ext_int.o: mcc_generated_files/ext_int.c  .generated_files/flags/application/372fd65413e24f55cf233f80ae363a36db007eed .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/ext_int.o: mcc_generated_files/ext_int.c  .generated_files/flags/application/707e1f9d5987cfa92bcfc5a85139a178d2df8daf .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/ext_int.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/ext_int.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/ext_int.o.d" -o ${OBJECTDIR}/mcc_generated_files/ext_int.o mcc_generated_files/ext_int.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/tmr1.o: mcc_generated_files/tmr1.c  .generated_files/flags/application/d1de433da62c2813a7d3324ceba7a9932d384c31 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/tmr1.o: mcc_generated_files/tmr1.c  .generated_files/flags/application/fac2a7991c40a7f8ee64705d9fe45b027a13623a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/tmr1.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/tmr1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/tmr1.o.d" -o ${OBJECTDIR}/mcc_generated_files/tmr1.o mcc_generated_files/tmr1.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/uart1.o: mcc_generated_files/uart1.c  .generated_files/flags/application/a9cfe24a70b5798255d788b3c6e4934860ff8b8a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/uart1.o: mcc_generated_files/uart1.c  .generated_files/flags/application/b862c0d6fa604c40c27158f0bd0946c651452abb .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/uart1.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/uart1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/uart1.o.d" -o ${OBJECTDIR}/mcc_generated_files/uart1.o mcc_generated_files/uart1.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/rtcc.o: mcc_generated_files/rtcc.c  .generated_files/flags/application/f732197c6c614105ea44f4921e92f6a04128af4e .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/rtcc.o: mcc_generated_files/rtcc.c  .generated_files/flags/application/363b96616974d1694273f88b9231e86e380159be .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/rtcc.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/rtcc.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/rtcc.o.d" -o ${OBJECTDIR}/mcc_generated_files/rtcc.o mcc_generated_files/rtcc.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/mcc_generated_files/i2c1.o: mcc_generated_files/i2c1.c  .generated_files/flags/application/93822c09126a5baba78fc1f2b28cb0326966e664 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/mcc_generated_files/i2c1.o: mcc_generated_files/i2c1.c  .generated_files/flags/application/e6c95ca5a96c3e72e9d42d3eba9fe382003d8421 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/mcc_generated_files" 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/i2c1.o.d 
 	@${RM} ${OBJECTDIR}/mcc_generated_files/i2c1.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/mcc_generated_files/i2c1.o.d" -o ${OBJECTDIR}/mcc_generated_files/i2c1.o mcc_generated_files/i2c1.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/651594321/Buttons.o: ../RPCLib/MIPS/Buttons/Buttons.c  .generated_files/flags/application/41764e8ed81442cfe6522a2c7f3202f8cd7f9d5b .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/651594321/Buttons.o: ../RPCLib/MIPS/Buttons/Buttons.c  .generated_files/flags/application/63d32178fa65e69f7b12a040aa82928255da7e30 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/651594321" 
 	@${RM} ${OBJECTDIR}/_ext/651594321/Buttons.o.d 
 	@${RM} ${OBJECTDIR}/_ext/651594321/Buttons.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/651594321/Buttons.o.d" -o ${OBJECTDIR}/_ext/651594321/Buttons.o ../RPCLib/MIPS/Buttons/Buttons.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o: ../RPCLib/MIPS/Cellular/TelitPwrCtrl.c  .generated_files/flags/application/27a73ee8bbc051445f9a83efe6d90879c381a2f2 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o: ../RPCLib/MIPS/Cellular/TelitPwrCtrl.c  .generated_files/flags/application/ac0b5c61f61f4d3fde5ff82df850e93f6be01459 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1084004198" 
 	@${RM} ${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o.d" -o ${OBJECTDIR}/_ext/1084004198/TelitPwrCtrl.o ../RPCLib/MIPS/Cellular/TelitPwrCtrl.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o: ../RPCLib/MIPS/Cellular/TelitAtCmd.c  .generated_files/flags/application/1f52b33c15f713c6a4499606f2f1643fdf7c2418 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o: ../RPCLib/MIPS/Cellular/TelitAtCmd.c  .generated_files/flags/application/821263c2be8e5c2c58a995c27d1d3097ba364377 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1084004198" 
 	@${RM} ${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o.d" -o ${OBJECTDIR}/_ext/1084004198/TelitAtCmd.o ../RPCLib/MIPS/Cellular/TelitAtCmd.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/2034318053/Debug.o: ../RPCLib/MIPS/Common/Debug.c  .generated_files/flags/application/c8c77427420da99669f754af44b4b5df27e1dcfa .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/2034318053/Debug.o: ../RPCLib/MIPS/Common/Debug.c  .generated_files/flags/application/a3c37d6900b0327a584495eae8c39e4956b4488 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/2034318053" 
 	@${RM} ${OBJECTDIR}/_ext/2034318053/Debug.o.d 
 	@${RM} ${OBJECTDIR}/_ext/2034318053/Debug.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/2034318053/Debug.o.d" -o ${OBJECTDIR}/_ext/2034318053/Debug.o ../RPCLib/MIPS/Common/Debug.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/2034318053/Utils.o: ../RPCLib/MIPS/Common/Utils.c  .generated_files/flags/application/a463de152635ec907724e4d9ad0a29ba1dd40667 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/2034318053/Utils.o: ../RPCLib/MIPS/Common/Utils.c  .generated_files/flags/application/9fdd543c4ad0bdd3c18844ce5c935f0f3224dabc .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/2034318053" 
 	@${RM} ${OBJECTDIR}/_ext/2034318053/Utils.o.d 
 	@${RM} ${OBJECTDIR}/_ext/2034318053/Utils.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/2034318053/Utils.o.d" -o ${OBJECTDIR}/_ext/2034318053/Utils.o ../RPCLib/MIPS/Common/Utils.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1606675233/Indicator.o: ../RPCLib/MIPS/Indicator/Indicator.c  .generated_files/flags/application/cbafb15681896d07e76a4369dcd9562f617adc33 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1606675233/Indicator.o: ../RPCLib/MIPS/Indicator/Indicator.c  .generated_files/flags/application/f8cc52683f0ef7383503e20ccea80a6171d508c3 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1606675233" 
 	@${RM} ${OBJECTDIR}/_ext/1606675233/Indicator.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1606675233/Indicator.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1606675233/Indicator.o.d" -o ${OBJECTDIR}/_ext/1606675233/Indicator.o ../RPCLib/MIPS/Indicator/Indicator.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1757259727/SST25xx.o: ../RPCLib/MIPS/Memory/SST25xx.c  .generated_files/flags/application/fe3677fbb280f84b367c9011b46ed1f9d9d43c79 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1757259727/SST25xx.o: ../RPCLib/MIPS/Memory/SST25xx.c  .generated_files/flags/application/6a155ab4fef0f61871110239415b61682295b7a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1757259727" 
 	@${RM} ${OBJECTDIR}/_ext/1757259727/SST25xx.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1757259727/SST25xx.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1757259727/SST25xx.o.d" -o ${OBJECTDIR}/_ext/1757259727/SST25xx.o ../RPCLib/MIPS/Memory/SST25xx.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/AS5600.o: ../RPCLib/MIPS/Sensors/AS5600.c  .generated_files/flags/application/41b68d2883ec8fa2591d6e7c871c14fbc3b5ae6f .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/AS5600.o: ../RPCLib/MIPS/Sensors/AS5600.c  .generated_files/flags/application/ecf3ebd75a53309088c7cbac4d559fff66d9ad7f .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/AS5600.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/AS5600.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/AS5600.o.d" -o ${OBJECTDIR}/_ext/1904349495/AS5600.o ../RPCLib/MIPS/Sensors/AS5600.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/DPS368.o: ../RPCLib/MIPS/Sensors/DPS368.c  .generated_files/flags/application/d796531abc3ef29a1ccba5381337eb94541a644d .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/DPS368.o: ../RPCLib/MIPS/Sensors/DPS368.c  .generated_files/flags/application/e2dc8c1c2ebc7a5cccc3d8126d03a10375d68986 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/DPS368.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/DPS368.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/DPS368.o.d" -o ${OBJECTDIR}/_ext/1904349495/DPS368.o ../RPCLib/MIPS/Sensors/DPS368.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/RainFall.o: ../RPCLib/MIPS/Sensors/RainFall.c  .generated_files/flags/application/b33a8a1c838216e12383b270c80aceb69a0a03ba .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/RainFall.o: ../RPCLib/MIPS/Sensors/RainFall.c  .generated_files/flags/application/497e52a8378951352c9c14cfb2fa890a3a811cca .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/RainFall.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/RainFall.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/RainFall.o.d" -o ${OBJECTDIR}/_ext/1904349495/RainFall.o ../RPCLib/MIPS/Sensors/RainFall.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o: ../RPCLib/MIPS/Sensors/GP2Y101xAU.c  .generated_files/flags/application/7aee32b0735ac2830dccfdd5938ce072006b08cc .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o: ../RPCLib/MIPS/Sensors/GP2Y101xAU.c  .generated_files/flags/application/cd3f450c21ea8f658a68f88063a1e34000b731c3 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o.d" -o ${OBJECTDIR}/_ext/1904349495/GP2Y101xAU.o ../RPCLib/MIPS/Sensors/GP2Y101xAU.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/WindSpeed.o: ../RPCLib/MIPS/Sensors/WindSpeed.c  .generated_files/flags/application/7f8944fc4d517efb3a48fca8851eb42b0db983ff .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/WindSpeed.o: ../RPCLib/MIPS/Sensors/WindSpeed.c  .generated_files/flags/application/8c4516ae8afc7eb1a93c026cbff363fc24dc74c4 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/WindSpeed.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/WindSpeed.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/WindSpeed.o.d" -o ${OBJECTDIR}/_ext/1904349495/WindSpeed.o ../RPCLib/MIPS/Sensors/WindSpeed.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/SHT4x.o: ../RPCLib/MIPS/Sensors/SHT4x.c  .generated_files/flags/application/91fb4664f34981bec9977d9af746fcb2eac1d171 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/SHT4x.o: ../RPCLib/MIPS/Sensors/SHT4x.c  .generated_files/flags/application/b9933092818ecef82c3acd5ae8e7eaf1770d745f .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/SHT4x.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/SHT4x.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/SHT4x.o.d" -o ${OBJECTDIR}/_ext/1904349495/SHT4x.o ../RPCLib/MIPS/Sensors/SHT4x.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/sensirion_common.o: ../RPCLib/MIPS/Sensors/sensirion_common.c  .generated_files/flags/application/7075f35b6b187cae4e8897228c108f4ccaec66a3 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/sensirion_common.o: ../RPCLib/MIPS/Sensors/sensirion_common.c  .generated_files/flags/application/4c669d5a4194aaf36d737862932677f3e6623008 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/sensirion_common.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/sensirion_common.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/sensirion_common.o.d" -o ${OBJECTDIR}/_ext/1904349495/sensirion_common.o ../RPCLib/MIPS/Sensors/sensirion_common.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1904349495/sht_git_version.o: ../RPCLib/MIPS/Sensors/sht_git_version.c  .generated_files/flags/application/4f6918d1bb00b1de26a61f65461acd859614a8a4 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1904349495/sht_git_version.o: ../RPCLib/MIPS/Sensors/sht_git_version.c  .generated_files/flags/application/9b323960fb38d7b520b5e2e9c22fbe7d3d9695d5 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1904349495" 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/sht_git_version.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1904349495/sht_git_version.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1904349495/sht_git_version.o.d" -o ${OBJECTDIR}/_ext/1904349495/sht_git_version.o ../RPCLib/MIPS/Sensors/sht_git_version.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/650698433/TaskManager.o: ../RPCLib/MIPS/system/TaskManager.c  .generated_files/flags/application/25a86277ce306563b1070029203c622dedd3754b .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/650698433/TaskManager.o: ../RPCLib/MIPS/system/TaskManager.c  .generated_files/flags/application/f13339d45c8525ac8fb399fa83cfbe8ca5fc0afe .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/650698433" 
 	@${RM} ${OBJECTDIR}/_ext/650698433/TaskManager.o.d 
 	@${RM} ${OBJECTDIR}/_ext/650698433/TaskManager.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/650698433/TaskManager.o.d" -o ${OBJECTDIR}/_ext/650698433/TaskManager.o ../RPCLib/MIPS/system/TaskManager.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/650698433/TickTimer.o: ../RPCLib/MIPS/system/TickTimer.c  .generated_files/flags/application/ca29ce5c1b48a11ac9f659b8f876169ace51ebd1 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/650698433/TickTimer.o: ../RPCLib/MIPS/system/TickTimer.c  .generated_files/flags/application/d6092472ce33416e49c91ba171b77cd506b612e3 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/650698433" 
 	@${RM} ${OBJECTDIR}/_ext/650698433/TickTimer.o.d 
 	@${RM} ${OBJECTDIR}/_ext/650698433/TickTimer.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/650698433/TickTimer.o.d" -o ${OBJECTDIR}/_ext/650698433/TickTimer.o ../RPCLib/MIPS/system/TickTimer.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/_ext/1566831265/softWdt.o: ../RPCLib/MIPS/System/softWdt.c  .generated_files/flags/application/7967a774ea4ca0d3fa63f5c6d6b37807f4f0866c .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/_ext/1566831265/softWdt.o: ../RPCLib/MIPS/System/softWdt.c  .generated_files/flags/application/38f38681aad644ef6bdb8a59b3b9129b8317d361 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/_ext/1566831265" 
 	@${RM} ${OBJECTDIR}/_ext/1566831265/softWdt.o.d 
 	@${RM} ${OBJECTDIR}/_ext/1566831265/softWdt.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/_ext/1566831265/softWdt.o.d" -o ${OBJECTDIR}/_ext/1566831265/softWdt.o ../RPCLib/MIPS/System/softWdt.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/AppMain.o: user/AppMain.c  .generated_files/flags/application/c9662d3598b4d353be79cc9e2db55218c339def0 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/AppMain.o: user/AppMain.c  .generated_files/flags/application/3f138e63205005f3d5fe80c43cef136a4926b4b8 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/AppMain.o.d 
 	@${RM} ${OBJECTDIR}/user/AppMain.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/AppMain.o.d" -o ${OBJECTDIR}/user/AppMain.o user/AppMain.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/Power_Monitor.o: user/Power_Monitor.c  .generated_files/flags/application/12f72421fa90867c97c253c1c05f627b596f8e70 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/Power_Monitor.o: user/Power_Monitor.c  .generated_files/flags/application/287c296ee5860ba7c6549b0642293c0288266a14 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/Power_Monitor.o.d 
 	@${RM} ${OBJECTDIR}/user/Power_Monitor.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/Power_Monitor.o.d" -o ${OBJECTDIR}/user/Power_Monitor.o user/Power_Monitor.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/VCP.o: user/VCP.c  .generated_files/flags/application/c4a8a98050df5adf157d816e4af873b0ce590384 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/VCP.o: user/VCP.c  .generated_files/flags/application/a4809f567996b6385f4d69fc66ca08165ee2143c .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/VCP.o.d 
 	@${RM} ${OBJECTDIR}/user/VCP.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/VCP.o.d" -o ${OBJECTDIR}/user/VCP.o user/VCP.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/VCP_Debug.o: user/VCP_Debug.c  .generated_files/flags/application/aea1b9f4b91039d0962e513f03d90698ec5e80a3 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/VCP_Debug.o: user/VCP_Debug.c  .generated_files/flags/application/60dd379469bb9546a54d8842b083fddec51b58b2 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/VCP_Debug.o.d 
 	@${RM} ${OBJECTDIR}/user/VCP_Debug.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/VCP_Debug.o.d" -o ${OBJECTDIR}/user/VCP_Debug.o user/VCP_Debug.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/user/Thingsboard.o: user/Thingsboard.c  .generated_files/flags/application/cecc093f6e08eb2f776dec94f165df9b7ae60284 .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/user/Thingsboard.o: user/Thingsboard.c  .generated_files/flags/application/5ec0a6ceddb49fa23adb4c04d66b416ec345cd4f .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}/user" 
 	@${RM} ${OBJECTDIR}/user/Thingsboard.o.d 
 	@${RM} ${OBJECTDIR}/user/Thingsboard.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION)  -I"cfg" -I"mcc_generated_files" -I"user" -I"../RPCLib/MIPS" -ffunction-sections -fdata-sections -O2 -fno-common -DDISABLE_LIBRARY_WARNING -DUSE_PROJECT_CFG -Wall -mcci -MP -MMD -MF "${OBJECTDIR}/user/Thingsboard.o.d" -o ${OBJECTDIR}/user/Thingsboard.o user/Thingsboard.c    -DXPRJ_application=$(CND_CONF)    $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/main.o: main.c  .generated_files/flags/application/f0c695bb4545db706b11d75612534a064d98244e .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
+${OBJECTDIR}/main.o: main.c  .generated_files/flags/application/e1878af12583cdf29cf9e90974f60a4acb1c680a .generated_files/flags/application/da39a3ee5e6b4b0d3255bfef95601890afd80709
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
