@@ -16,5 +16,7 @@ The project benefited from equipment and guidance provided by RPC, the company w
 
 #### Device Images
 ![Device Images](https://github.com/hcmusthinhcode2k2/WeatherStation_Thesis/blob/main/Picture_demo/Device.png)
-#### Thingsboard Dashboard
-![Thingsboard Images](https://github.com/hcmusthinhcode2k2/WeatherStation_Thesis/blob/main/Picture_demo/Thingsboard.png)
+
+#### ThingsBoard Dashboard
+![ThingsBoard Dashboard](https://github.com/hcmusthinhcode2k2/WeatherStation_Thesis/blob/main/Picture_demo/Thingsboard.png)
+- [Access the ThingsBoard Dashboard](https://demo.thingsboard.io/dashboard/4821b720-32a0-11ef-9229-f3aa570680fb?publicId=11060700-0c1c-11ef-b68a-bfe4060367e5)
