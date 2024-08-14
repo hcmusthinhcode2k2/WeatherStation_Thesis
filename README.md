@@ -12,7 +12,9 @@ The project benefited from equipment and guidance provided by RPC, the company w
 
 ### Model Images and Implementation Results
 #### Weather Station Board
-![Weather Station Board](https://drive.google.com/file/d/16q2lfw4ZvUXeKf2_RMh9_2UYPYy2KhNU/view?usp=sharing)
+![Weather Station Board](https://github.com/hcmusthinhcode2k2/WeatherStation_Thesis/blob/main/Picture_demo/Board.jpg)
 
 #### Device Images
-![Device Images](https://drive.google.com/file/d/18MNGj7ncWZuCOPd9ZQKFL6nLTHTbGxzl/view?usp=sharing)
+![Device Images](https://github.com/hcmusthinhcode2k2/WeatherStation_Thesis/blob/main/Picture_demo/Device.png)
+#### Thingsboard Dashboard
+![Thingsboard Images](https://github.com/hcmusthinhcode2k2/WeatherStation_Thesis/blob/main/Picture_demo/Device.png)
