@@ -28,3 +28,6 @@ Post-thesis, I built a web application using Next.js, integrating it with the Th
 - **Test Credentials**: 
   - **Username**: test1@gmail.com
   - **Password**: Test123@
+### Demo
+[Demo1](https://www.youtube.com/watch?v=N3w6X92QKFQ)
+[Demo2](https://youtu.be/iBSUhQx9wfY)
